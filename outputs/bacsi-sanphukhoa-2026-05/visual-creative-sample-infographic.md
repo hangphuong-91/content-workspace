@@ -1,6 +1,6 @@
-# Mẫu Thiết Kế Hình Ảnh — Ảnh Thông Tin (Thai Kỳ Tuần 28)
+﻿# Mẫu Thiết Kế Hình Ảnh — Ảnh Thông Tin (Thai Kỳ Tuần 28)
 
-**Tạo bởi:** `/visual creative "Ảnh thông tin thai kỳ tuần 28 cho bài đăng Facebook, thương hiệu màu xanh mint"`
+**Tạo bởi:** `/visual creative "Ảnh thông tin (Infographic) thai kỳ tuần 28 cho bài đăng Facebook, thương hiệu màu xanh mint"`
 
 **Trạng thái:** Sẵn sàng xuất file JPG/PNG  
 **Nền tảng:** Bài đăng Facebook + Bài nhiều ảnh Instagram + Ghim Pinterest  
@@ -24,7 +24,7 @@
 - Tiêu đề: "Bé 28 Tuần Tuổi"
 - Phụ đề: "3 Điều Đang Xảy Ra Trong Bụng Bạn"
 - Nội dung chính: 3 điểm quan trọng kèm biểu tượng
-- Lời kêu gọi hành động: "📲 Đặt lịch khám → Link"
+- Lời kêu gọi hành động (CTA): "📲 Đặt lịch khám → Link"
 - Phần cuối: "[Tên Bác Sĩ] • [Số điện thoại Phòng Khám]"
 
 **Nên làm:**
@@ -53,7 +53,7 @@ healthcare education aesthetic, professional medical illustration,
 --ar 4:3 --v 6
 ```
 
-### DALL-E 3 (cho thiết kế ảnh thông tin)
+### DALL-E 3 (cho thiết kế Ảnh thông tin (Infographic))
 
 ```
 Infographic: Pregnancy week 28 milestones illustration.
@@ -104,7 +104,7 @@ educational medical design, healthcare poster
 - **Tiêu đề:** 48px, Đậm, Navy
 - **Phụ đề:** 28px, Hơi đậm, Navy
 - **Nội dung:** 18px, Thường, Navy
-- **Lời kêu gọi hành động:** 20px, Đậm, Chữ trắng trên nút navy
+- **Lời kêu gọi hành động (CTA):** 20px, Đậm, Chữ trắng trên nút navy
 - **Phần cuối:** 12px, Thường, Navy
 
 ---

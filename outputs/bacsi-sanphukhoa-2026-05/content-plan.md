@@ -1,4 +1,4 @@
-# Kế Hoạch Nội Dung — Thương Hiệu Cá Nhân Bác Sĩ Sản Phụ Khoa Tư Nhân
+﻿# Kế Hoạch Nội Dung — Thương Hiệu Cá Nhân Bác Sĩ Sản Phụ Khoa Tư Nhân
 
 **Thương hiệu:** Bác Sĩ Sản Phụ Khoa (Thương Hiệu Cá Nhân)  
 **Thời hạn:** 3 tháng (25/05 - 25/08/2026)  
@@ -12,7 +12,7 @@
 ### Cơ Hội Thị Trường
 - Nhu cầu cao: "Bác sĩ sản phụ khoa TPHCM" = 50 nghìn+ lượt tìm kiếm/tháng
 - Xu hướng nền tảng: Phụ nữ mang thai 25-40 tuổi đang chuyển sang TikTok để tìm thông tin sức khỏe
-- Khoảng trống cạnh tranh: Ảnh thông tin và kể chuyện chân thực chưa được khai thác
+- Khoảng trống cạnh tranh: Ảnh thông tin (Infographic) và kể chuyện chân thực chưa được khai thác
 - Yếu tố tin tưởng: Thương hiệu bác sĩ cá nhân được tin hơn thương hiệu phòng khám trong y tế
 
 ### Lợi Thế Cạnh Tranh
@@ -31,19 +31,19 @@
 
 ## Giai Đoạn 2: Nền Tảng Chiến Lược
 
-### 2 Chân Dung Khách Hàng Mục Tiêu
+### 2 Chân dung khách hàng (Persona) Mục Tiêu
 
 **Chân dung 1: "Bà Mẹ Mang Thai Lần Đầu Hay Lo Lắng" (60% đối tượng)**
 - Tuổi: 28-35, học vấn đại học trở lên, online 4+ giờ/ngày
 - Nền tảng: TikTok, Instagram, Facebook (theo thứ tự)
-- Điểm khó khăn: Mọi triệu chứng đều lo lắng, muốn được giáo dục chi tiết
+- Điểm khó khăn (Pain Point): Mọi triệu chứng đều lo lắng, muốn được giáo dục chi tiết
 - Nhu cầu: Giáo dục từng tuần, trấn an, hướng dẫn triệu chứng
 - Sở thích nội dung: Chi tiết + cảm xúc + khoa học
 
 **Chân dung 2: "Bà Mẹ Chuyên Nghiệp Bận Rộn" (40% đối tượng)**
 - Tuổi: 32-42, mẹ đi làm, online 2-3 giờ/ngày
 - Nền tảng: Facebook, Email, LinkedIn
-- Điểm khó khăn: Không có thời gian đặt lịch, muốn mẹo nhanh
+- Điểm khó khăn (Pain Point): Không có thời gian đặt lịch, muốn mẹo nhanh
 - Nhu cầu: Mẹo tiết kiệm thời gian, hiệu quả, lịch kiểm tra
 - Sở thích nội dung: Mẹo nhanh, có thể áp dụng ngay, không lòng vòng
 
@@ -51,7 +51,7 @@
 
 | Kênh | % Sở hữu | % Trả phí | % Lan truyền | Tỷ lệ nội dung | Tần suất |
 |---|---|---|---|---|---|
-| **TikTok** | 60% | 20% | 20% | Hỏi đáp, video ảnh thông tin, kể chuyện | 4 lần/tuần |
+| **TikTok** | 60% | 20% | 20% | Hỏi đáp, video Ảnh thông tin (Infographic), kể chuyện | 4 lần/tuần |
 | **Instagram** | 50% | 30% | 20% | Bài nhiều ảnh, Reels, Tin | 4 lần/tuần |
 | **Facebook** | 40% | 40% | 20% | Reels, bài nhiều ảnh, bài dài | 3 lần/tuần |
 | **Blog/Website** | 90% | 10% | 0% | Bài viết tối ưu tìm kiếm | 2 lần/tuần |
@@ -60,16 +60,16 @@
 
 ### Mục Tiêu SMART (3 Tháng)
 
-- **Độ tiếp cận:** 100 nghìn người theo dõi mới trên các nền tảng (bắt đầu từ 10 nghìn)
-- **Tương tác:** Tỷ lệ tương tác 8-12% (so với 2-4% của thị trường)
-- **Chuyển đổi:** 500 lượt đặt lịch tư vấn (qua lời kêu gọi hành động)
+- **Độ tiếp cận (Reach):** 100 nghìn người theo dõi mới trên các nền tảng (bắt đầu từ 10 nghìn)
+- **Tương tác:** Tỷ lệ tương tác (Engagement Rate) 8-12% (so với 2-4% của thị trường)
+- **Chuyển đổi:** 500 lượt đặt lịch tư vấn (qua Lời kêu gọi hành động (CTA))
 - **Uy tín:** Xác lập là "top 3 thương hiệu cá nhân bác sĩ sản phụ khoa được tin tưởng tại TPHCM"
 
 ---
 
 ## Giai Đoạn 3: Kiến Trúc Thông Điệp
 
-### 5 Trụ Cột Nội Dung
+### 5 Trụ cột nội dung (Content Pillar)
 
 1. **"Chuỗi Giáo Dục"** — Thai kỳ từng tuần
 2. **"Hỏi Đáp Thật"** — Câu hỏi thực từ bệnh nhân được giải đáp
@@ -96,7 +96,7 @@
 
 ## Giai Đoạn 4: Lịch Nội Dung (3 Tháng)
 
-### Tháng 1 (25/05 - 25/06): Xây Dựng Uy Tín + Độ Tiếp Cận
+### Tháng 1 (25/05 - 25/06): Xây Dựng Uy Tín + Độ tiếp cận (Reach)
 
 | Tuần | Trụ cột | TikTok | Instagram | Facebook | Blog | Email |
 |---|---|---|---|---|---|---|
@@ -107,7 +107,7 @@
 
 ### Tháng 2 (26/06 - 25/07): Tương Tác + Chăm Sóc
 
-- Đỉnh tái sử dụng nội dung: 1 blog → 5 bài mạng xã hội
+- Đỉnh Tái sử dụng nội dung (Repurposing): 1 blog → 5 bài mạng xã hội
 - Nội dung theo chuỗi: "Chủ Thứ _ Là Gì?" (điều gì xảy ra mỗi ngày trong tuần)
 - Bắt đầu chạy quảng cáo: Top 3 bài tự nhiên hiệu quả nhất → chạy quảng cáo
 - Tập trung tương tác: Phản hồi bình luận dưới 2 giờ
@@ -127,7 +127,7 @@
 
 **TikTok:** Lượt xem video (mục tiêu 5K-50K mỗi video), lượt lưu, lượt chia sẻ (tín hiệu ý định cao)  
 **Instagram:** Tỷ lệ tương tác (mục tiêu 10%+), tỷ lệ nhấn vào đường dẫn  
-**Facebook:** Độ tiếp cận, tỷ lệ tương tác, lưu lượng truy cập blog  
+**Facebook:** Độ tiếp cận (Reach), Tỷ lệ tương tác (Engagement Rate), lưu lượng truy cập blog  
 **Blog:** Thời gian đọc, tỷ lệ thoát, độ cuộn, thứ hạng tìm kiếm  
 **Email:** Tỷ lệ mở (mục tiêu 30%+), tỷ lệ nhấp, chuyển đổi (lịch hẹn)  
 **Tổng thể:** Lượt đặt lịch tư vấn, giá trị lâu dài của bệnh nhân, tỷ lệ giới thiệu
@@ -135,12 +135,12 @@
 ### Lịch Đánh Giá Định Kỳ
 - **Hàng ngày:** Kiểm tra bình luận, phản hồi dưới 2 giờ
 - **Hàng tuần:** Xu hướng tương tác, bài đăng hiệu quả nhất
-- **Hàng tháng:** Tăng trưởng độ tiếp cận, tăng trưởng người theo dõi, lịch đặt tư vấn
-- **Hàng quý:** Hiệu suất trụ cột nội dung, hiệu quả từng nền tảng, điều chỉnh chiến lược
+- **Hàng tháng:** Tăng trưởng Độ tiếp cận (Reach), tăng trưởng người theo dõi, lịch đặt tư vấn
+- **Hàng quý:** Hiệu suất Trụ cột nội dung (Content Pillar), hiệu quả từng nền tảng, điều chỉnh chiến lược
 
 ### Dấu Hiệu Cần Tối Ưu
-- Nếu độ tiếp cận < 20% người theo dõi/bài → Xem lại mô tả bài và thời điểm đăng
-- Nếu tỷ lệ tương tác < 5% → Đổi định dạng (nhiều Reels hơn, ít bài chỉ có chữ)
+- Nếu Độ tiếp cận (Reach) < 20% người theo dõi/bài → Xem lại mô tả bài và thời điểm đăng
+- Nếu Tỷ lệ tương tác (Engagement Rate) < 5% → Đổi định dạng (nhiều Reels hơn, ít bài chỉ có chữ)
 - Nếu tỷ lệ thoát blog > 60% → Cải thiện tiêu đề hoặc đoạn đầu
 - Nếu tỷ lệ mở email < 25% → Thử nghiệm A/B dòng tiêu đề
 
@@ -158,6 +158,6 @@
 
 **Tỷ lệ tái sử dụng:** 1 bài gốc → 5-7 bài phát sinh (quy tắc 80/20 được áp dụng)
 
-**Thời gian đầu tư:** ~25-30 giờ/tháng với sản xuất theo lô + tái sử dụng
+**Thời gian đầu tư:** ~25-30 giờ/tháng với Sản xuất theo lô (Batch Production) + tái sử dụng
 
 **Bước tiếp:** Đưa vào `/ai execution` để có quy trình hàng tuần + bảng công cụ

@@ -1,4 +1,4 @@
-# Quy Trình Sản Xuất Nội Dung Hàng Tuần
+﻿# Quy Trình Sản Xuất Nội Dung Hàng Tuần
 
 **Thương hiệu:** Thương Hiệu Cá Nhân Bác Sĩ Sản Phụ Khoa  
 **Nguồn lực:** 20-30 giờ/tuần, làm một mình  
@@ -11,11 +11,11 @@
 | Loại nội dung | Công cụ | Thời gian | Mẫu sử dụng | Ghi chú |
 |---|---|---|---|---|
 | Kịch bản hỏi đáp TikTok | Claude /copywrite | 15 phút | Khung kịch bản TikTok | Kịch bản 1-5 phút |
-| Bài đăng nhiều ảnh Instagram | Claude /copywrite + Canva | 30 phút | Khung mạng xã hội | 5-7 trang ảnh |
-| Reels Facebook | Claude /copywrite + CapCut | 45 phút | Mẫu kịch bản video | Câu thu hút 30-60 giây |
+| Bài đăng nhiều ảnh (Carousel) Instagram | Claude /copywrite + Canva | 30 phút | Khung mạng xã hội | 5-7 trang ảnh |
+| Reels Facebook | Claude /copywrite + CapCut | 45 phút | Mẫu kịch bản video | Câu thu hút (Hook) 30-60 giây |
 | Bài blog (1.500 từ) | Claude /copywrite | 60 phút | Khung blog tối ưu tìm kiếm | Nghiên cứu + viết |
 | Bản tin email | Claude /copywrite | 20 phút | Mẫu email | Giọng điệu ấm áp |
-| Ảnh thông tin | Canva AI | 30 phút | Thông số từng nền tảng | 1.200×1.500px |
+| Ảnh thông tin (Infographic) | Canva AI | 30 phút | Thông số từng nền tảng | 1.200×1.500px |
 | Bài viết LinkedIn | Claude /copywrite | 45 phút | Giọng điệu chuyên nghiệp | 800-1.200 từ |
 
 **Tổng hàng tuần:** ~245 phút = 4 giờ sản xuất + 2 giờ quản lý/phản hồi = **6 giờ/tuần**
@@ -40,8 +40,8 @@
 
 ### Thứ Năm (1,5 giờ) — Sản Xuất Hình Ảnh
 ```
-/visual creative "Ảnh thông tin: Bé phát triển tuần 24 cho bài nhiều ảnh Instagram"
-/visual creative "Ảnh đại diện TikTok với chữ câu thu hút"
+/visual creative "Ảnh thông tin (Infographic): Bé phát triển tuần 24 cho bài nhiều ảnh Instagram"
+/visual creative "Ảnh đại diện TikTok với chữ Câu thu hút (Hook)"
 /visual creative "Ảnh bìa Facebook tháng 6"
 ```
 
@@ -56,7 +56,7 @@
 
 ---
 
-## Sơ Đồ Tái Sử Dụng Nội Dung — 1 Bài Gốc → 7 Bài
+## Sơ Đồ Tái sử dụng nội dung (Repurposing) — 1 Bài Gốc → 7 Bài
 
 ### Nội dung gốc: "Bé Phát Triển Tuần 24"
 
@@ -73,10 +73,10 @@
 │   └── Video 3: "Giải thích các triệu chứng tuần 24"
 │
 ├── 📺 Reels Facebook (1 video, 45 giây)
-│   └── Kết hợp câu thu hút hay nhất từ TikTok + lời kêu gọi hành động
+│   └── Kết hợp Câu thu hút (Hook) hay nhất từ TikTok + Lời kêu gọi hành động (CTA)
 │
 ├── 📧 Bản Tin Email (800 từ)
-│   └── Tóm tắt blog + mẹo có thể áp dụng ngay + lời kêu gọi hành động
+│   └── Tóm tắt blog + mẹo có thể áp dụng ngay + Lời kêu gọi hành động (CTA)
 │
 ├── 🎨 Ảnh Thông Tin (đủ tốt để đăng Pinterest)
 │   └── Dòng thời gian hình ảnh về các thay đổi tuần 24
@@ -85,7 +85,7 @@
     └── "Tại Sao Tuần 24 Quan Trọng: Góc Nhìn Y Khoa"
 
 ⏱️ Tổng thời gian sản xuất: ~3,5 giờ
-📊 Tổng độ tiếp cận: 1 bài gốc → 3 TikTok + 1 Bài nhiều ảnh + 1 Reels + 1 Bản tin + 1 Blog + 1 LinkedIn = 150 nghìn+ lượt tiếp cận tiềm năng
+📊 Tổng Độ tiếp cận (Reach): 1 bài gốc → 3 TikTok + 1 Bài nhiều ảnh + 1 Reels + 1 Bản tin + 1 Blog + 1 LinkedIn = 150 nghìn+ lượt tiếp cận tiềm năng
 ```
 
 ---
@@ -100,7 +100,7 @@
 |---|---|---|---|---|
 | Thứ Hai | Lên kế hoạch + Nghiên cứu | 30 phút | Cuối ngày | |
 | Thứ Ba-Tư | Viết: TikTok(2), Instagram(1), Facebook(1), Blog(1), Email(1) | 120 phút | Cuối ngày Tư | |
-| Thứ Năm | Hình ảnh: Ảnh thông tin(1), Ảnh đại diện(2) | 90 phút | Cuối ngày | |
+| Thứ Năm | Hình ảnh: Ảnh thông tin (Infographic)(1), Ảnh đại diện(2) | 90 phút | Cuối ngày | |
 | Thứ Sáu | Chỉnh sửa + Lên lịch | 60 phút | Cuối ngày | |
 | Thứ Bảy-CN | Phản hồi bình luận, lên kế hoạch tuần tới | 30 phút | Liên tục | |
 
@@ -137,7 +137,7 @@
 ## Quy Tắc Tối Ưu 80/20
 
 1. **Ưu tiên nội dung gốc trước** — 1 bài gốc = 7 bài phát sinh (không làm 7 ý tưởng riêng biệt)
-2. **Sản xuất theo lô** — Viết tất cả TikTok của tuần vào thứ Ba, không làm mỗi ngày
+2. **Sản xuất theo lô (Batch Production)** — Viết tất cả TikTok của tuần vào thứ Ba, không làm mỗi ngày
 3. **Tái sử dụng công thức thành công** — Nếu Reels X đạt 50 nghìn lượt xem, làm thêm 3 bài tương tự
 4. **Chỉ thuê ngoài phần chỉnh sửa** — Nếu thuê người, để họ làm CapCut; bạn viết nội dung
 5. **Theo dõi hiệu quả từng nền tảng** — Nếu TikTok = 70% lượt đặt lịch, dành 40% thời gian cho đó
@@ -152,7 +152,7 @@
 
 **"Không có tương tác"**
 - Kiểm tra: Độ mạnh câu thu hút (3 giây đầu), cách mô tả bài đăng, thời điểm đăng
-- Chạy `/platform algorithm facebook` để cập nhật thay đổi thuật toán mới nhất
+- Chạy `/platform algorithm facebook` để cập nhật thay đổi Thuật toán (Algorithm) mới nhất
 
 **"Không nghĩ ra ý tưởng nội dung"**
 - Xem bình luận trên bài đăng tuần trước → dùng câu hỏi làm ý tưởng nội dung
