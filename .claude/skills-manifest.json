@@ -1,0 +1,164 @@
+{
+  "workspace": "Marketing Content Workspace",
+  "version": "1.0.0",
+  "description": "6-skill Claude Code workspace cho content marketing — orchestrate, research, optimize, copywrite, design, execute",
+  "created": "2026-05-10",
+  "author": "Claude Code",
+  "repository": "https://github.com/hangphuong-91/content-workspace",
+  "skills": [
+    {
+      "id": "content-plan",
+      "name": "content-plan",
+      "title": "Content Plan Orchestrator",
+      "description": "Tạo content plan 3 tháng đầy đủ: situation analysis, audience personas, channel strategy, content calendar (OPE), tracking framework",
+      "trigger": "/content plan [topic hoặc brand]",
+      "file": ".claude/skills/content-plan.md",
+      "dependencies": ["competitor-research (recommended)", "platform-algorithm (recommended)"],
+      "outputs": ["content-plan.md", "Notion database", "Google Drive"],
+      "examples": [
+        "/content plan \"Personal brand bác sĩ sản phụ khoa tư nhân\"",
+        "/content plan \"Thương hiệu cà phê specialty Hà Nội\" --quick"
+      ]
+    },
+    {
+      "id": "competitor-research",
+      "name": "competitor-research",
+      "title": "Competitor Research & Gap Analysis",
+      "description": "Audit content đối thủ, so sánh strategy, gap analysis, SWOT matrix. Tự động feed vào Phase 1 của content plan.",
+      "trigger": "/competitor research [brand/ngành]",
+      "file": ".claude/skills/competitor-research.md",
+      "dependencies": [],
+      "outputs": ["competitor-audit.md", "Notion database"],
+      "examples": [
+        "/competitor research \"phòng khám sản phụ khoa tư nhân TPHCM\"",
+        "/competitor research \"cà phê specialty Hà Nội\" --competitors \"The Coffee House, Katinat\""
+      ]
+    },
+    {
+      "id": "platform-algorithm",
+      "name": "platform-algorithm",
+      "title": "Real-Time Platform Algorithm Intelligence",
+      "description": "Tra cứu thuật toán mới nhất của social media & search. Search FRESH từ official sources mỗi lần, date-stamp output.",
+      "trigger": "/platform algorithm [platform]",
+      "file": ".claude/skills/platform-algorithm.md",
+      "dependencies": [],
+      "outputs": ["Algorithm cheat sheet (date-stamped)"],
+      "platforms_supported": ["facebook", "tiktok", "instagram", "linkedin", "youtube", "google", "twitter"],
+      "examples": [
+        "/platform algorithm facebook",
+        "/platform algorithm tiktok"
+      ]
+    },
+    {
+      "id": "copywrite",
+      "name": "copywrite",
+      "title": "Platform-Specific Copywriting",
+      "description": "Viết copy cho bất kỳ platform & format, 3 variations, áp dụng bias psychology, compliance check. Có quick mode.",
+      "trigger": "/copywrite [platform] [brief]",
+      "file": ".claude/skills/copywrite.md",
+      "dependencies": ["content-plan (để có persona + tone)"],
+      "outputs": ["3 copy variations", "Notion database"],
+      "modes": ["full (3 variations)", "quick (1 variation) --quick"],
+      "platforms_supported": ["facebook", "instagram", "tiktok", "linkedin", "email", "blog", "ads"],
+      "examples": [
+        "/copywrite facebook \"Bài giáo dục sức khỏe thai kỳ tuần 28, angle: điều bất ngờ\"",
+        "/copywrite tiktok \"Hook cho video tips uống nước\" --quick"
+      ]
+    },
+    {
+      "id": "visual-creative",
+      "name": "visual-creative",
+      "title": "Visual Design & AI Prompts",
+      "description": "3 bước: creative brief → AI prompts (Midjourney/DALL-E) → Canva design tự động. Export Google Drive.",
+      "trigger": "/visual creative [mô tả nội dung + platform]",
+      "file": ".claude/skills/visual-creative.md",
+      "dependencies": ["Canva MCP", "Google Drive MCP"],
+      "outputs": ["Creative brief.md", "AI prompts.md", "Canva design link", "PNG/PDF export"],
+      "examples": [
+        "/visual creative \"Infographic thai kỳ tuần 28 cho Facebook post, brand màu xanh mint\"",
+        "/visual creative \"TikTok thumbnail bác sĩ trả lời Q&A, cần có text hook to rõ\""
+      ]
+    },
+    {
+      "id": "ai-execution",
+      "name": "ai-execution",
+      "title": "SOP & Production Operations",
+      "description": "Biến content plan thành SOP vận hành: tool matrix, weekly queue, repurposing tree. Dùng cho solo marketer hoặc hand-off.",
+      "trigger": "/ai execution [path-to-plan.md]",
+      "file": ".claude/skills/ai-execution.md",
+      "dependencies": ["content-plan (required)"],
+      "outputs": ["SOP.md", "Tool matrix", "Weekly queue", "Repurposing tree"],
+      "examples": [
+        "/ai execution content-outputs/bacsi-sanphukhoa-2026-05/content-plan.md",
+        "/ai execution"
+      ]
+    }
+  ],
+  "external_integrations": {
+    "notion": {
+      "tool": "mcp__claude_ai_Notion__*",
+      "used_by": ["content-plan", "copywrite", "ai-execution"],
+      "purpose": "Content tracking database, brand voice guide, production status"
+    },
+    "google_drive": {
+      "tool": "mcp__claude_ai_Google_Drive__*",
+      "used_by": ["content-plan", "visual-creative", "ai-execution"],
+      "purpose": "Store .md files, export designs"
+    },
+    "canva": {
+      "tool": "mcp__claude_ai_Canva__*",
+      "used_by": ["visual-creative"],
+      "purpose": "Create designs, access brand kit, export"
+    },
+    "github": {
+      "tool": "gh CLI",
+      "used_by": ["content-plan", "ai-execution"],
+      "purpose": "Version control, repo content-workspace"
+    }
+  },
+  "workflow_sequence": [
+    {
+      "step": 1,
+      "skill": "competitor-research",
+      "description": "Audit đối thủ, tìm gap"
+    },
+    {
+      "step": 2,
+      "skill": "platform-algorithm",
+      "description": "Tra cứu algorithm per platform"
+    },
+    {
+      "step": 3,
+      "skill": "content-plan",
+      "description": "Tạo plan 3 tháng (feeds từ step 1-2)"
+    },
+    {
+      "step": 4,
+      "skill": "ai-execution",
+      "description": "Sinh SOP từ content plan"
+    },
+    {
+      "step": 5,
+      "skill": "copywrite",
+      "description": "Viết copy từng tuần"
+    },
+    {
+      "step": 6,
+      "skill": "visual-creative",
+      "description": "Design visual đi kèm"
+    }
+  ],
+  "test_case": {
+    "scenario": "sản phụ khoa",
+    "brand": "Personal brand bác sĩ sản phụ khoa tư nhân",
+    "sequence": [
+      "/competitor research \"phòng khám sản phụ khoa tư nhân TPHCM\"",
+      "/platform algorithm facebook",
+      "/platform algorithm tiktok",
+      "/content plan \"Personal brand bác sĩ sản phụ khoa tư nhân\"",
+      "/ai execution content-outputs/bacsi-sanphukhoa-2026-05/content-plan.md",
+      "/copywrite facebook \"Bài giáo dục sức khỏe thai kỳ tuần 28\"",
+      "/visual creative \"Infographic thai kỳ tuần 28 cho Facebook\""
+    ]
+  }
+}
