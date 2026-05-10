@@ -1,0 +1,13 @@
+# Sensitive outputs — không push lên public repo
+outputs/*/
+exports/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# OS
+.DS_Store
+
+# Logs
+*.log
