@@ -1,21 +1,54 @@
 # Skill: /content plan
 
 ## Mô tả
-Tạo content plan 3 tháng đầy đủ cho bất kỳ chủ đề/brand nào. Output bao gồm: Situation Analysis, Audience Personas, Channel Strategy, Content Calendar (OPE), và Tracking Framework. Kết nối Notion + Google Drive + GitHub.
+Tạo content plan cho bất kỳ chủ đề/brand nào. Có hai chế độ: **Full** (3 tháng, 5 phases, kết nối Notion + Drive + GitHub) và **Quick** (1 tháng, không hỏi nhiều, ra outline ngay để bắt đầu làm).
 
 Chạy TRƯỚC khi dùng skill này: `/competitor research` và `/platform algorithm` để research phase đầy đủ hơn.
 
 ## Cú pháp
+
+**Full mode** (mặc định, dùng khi lập kế hoạch mới hoặc đầu quý):
 ```
 /content plan [chủ đề hoặc brand]
 ```
 
-**Ví dụ:**
+**Quick mode** (dùng khi cần outline nhanh để bắt tay vào làm ngay):
+```
+/content plan [chủ đề] --quick
+```
+
+**Ví dụ Full:**
 ```
 /content plan "Personal brand bác sĩ sản phụ khoa tư nhân"
 /content plan "Thương hiệu cà phê specialty Hà Nội"
-/content plan "App fintech cho sinh viên"
 ```
+
+**Ví dụ Quick:**
+```
+/content plan "Bác sĩ sản phụ khoa" --quick
+/content plan "Cà phê specialty" --quick
+```
+
+## Quick Mode — Cách Hoạt Động
+
+Khi có flag `--quick`, Claude:
+- Không search external sources (dùng knowledge sẵn có)
+- Không hỏi về file marketing plan hay comm plan
+- Bỏ qua Notion + Drive + GitHub sync
+- Chỉ hỏi tối đa **2 câu**: (1) Audience chính là ai? (2) Kênh nào đang dùng?
+- Output là **content calendar 4 tuần** dạng bảng, sẵn sàng để bắt tay vào làm ngay
+- Thời gian: hoàn thành trong 1 lượt trả lời
+
+**Dùng Quick mode khi:**
+- Cần thứ để bắt đầu ngay tuần này, không phải plan hoàn hảo
+- Brand mới, chưa có data, cần thử nhanh rồi điều chỉnh
+- Đã có full plan, chỉ cần refresh tháng tiếp theo
+- Brainstorm nhanh trước khi họp
+
+**Dùng Full mode khi:**
+- Lập plan cho quý mới hoặc campaign lớn
+- Brand chưa từng làm content hệ thống
+- Cần plan để present cho stakeholder hoặc dạy lại cho người khác
 
 ## Claude sẽ hỏi gì khi chạy
 1. Tên brand + website + social handles
