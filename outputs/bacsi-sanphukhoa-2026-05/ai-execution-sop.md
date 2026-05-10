@@ -1,167 +1,167 @@
-# AI Execution SOP — Weekly Production Workflow
+# Quy Trình Sản Xuất Nội Dung Hàng Tuần
 
-**Brand:** Personal Brand Bác Sĩ Sản Phụ Khoa  
-**Resource:** 20-30 hours/week solo creator  
-**Tools:** Claude (copywrite), Canva (visual), CapCut (video), Buffer (scheduling)
+**Thương hiệu:** Thương Hiệu Cá Nhân Bác Sĩ Sản Phụ Khoa  
+**Nguồn lực:** 20-30 giờ/tuần, làm một mình  
+**Công cụ:** Claude (viết bài), Canva (hình ảnh), CapCut (video), Buffer (lên lịch)
 
 ---
 
-## Tool Matrix — Content Piece → AI Tool
+## Bảng Công Cụ — Loại Nội Dung → Công Cụ AI
 
-| Content Type | Tool | Time | Template | Notes |
+| Loại nội dung | Công cụ | Thời gian | Mẫu sử dụng | Ghi chú |
 |---|---|---|---|---|
-| TikTok Q&A Script | Claude /copywrite | 15 min | TikTok framework | 1-5 min script |
-| Instagram Carousel | Claude /copywrite + Canva | 30 min | Social media framework | 5-7 slides |
-| Facebook Reel | Claude /copywrite + CapCut | 45 min | Video script template | 30-60 sec hook |
-| Blog Post (1500 words) | Claude /copywrite | 60 min | Blog SEO framework | Research + write |
-| Email Newsletter | Claude /copywrite | 20 min | Email template | Warm tone |
-| Infographic | Canva AI | 30 min | Platform specs | 1200×1500px |
-| LinkedIn Article | Claude /copywrite | 45 min | Professional tone | 800-1200 words |
+| Kịch bản hỏi đáp TikTok | Claude /copywrite | 15 phút | Khung kịch bản TikTok | Kịch bản 1-5 phút |
+| Bài đăng nhiều ảnh Instagram | Claude /copywrite + Canva | 30 phút | Khung mạng xã hội | 5-7 trang ảnh |
+| Reels Facebook | Claude /copywrite + CapCut | 45 phút | Mẫu kịch bản video | Câu thu hút 30-60 giây |
+| Bài blog (1.500 từ) | Claude /copywrite | 60 phút | Khung blog tối ưu tìm kiếm | Nghiên cứu + viết |
+| Bản tin email | Claude /copywrite | 20 phút | Mẫu email | Giọng điệu ấm áp |
+| Ảnh thông tin | Canva AI | 30 phút | Thông số từng nền tảng | 1.200×1.500px |
+| Bài viết LinkedIn | Claude /copywrite | 45 phút | Giọng điệu chuyên nghiệp | 800-1.200 từ |
 
-**Total Weekly:** ~245 minutes = 4 hours production + 2 hours admin/response = 6 hours/week
-
----
-
-## Weekly Production Queue (Week 1: May 26-Jun 1)
-
-### Monday (30 min) — Planning
-- Review calendar: which content pieces due this week?
-- Check competitor posts (HAPPY clinic updates?)
-- Review comment questions for Q&A content
-
-### Tuesday-Wednesday (2 hours) — Text Production
-```
-/copywrite tiktok "Script: Doctor answers 'Can I eat seafood while pregnant?'" --quick
-/copywrite instagram "Carousel: 5 tips for week 20-24 pregnancy"
-/copywrite facebook "Reel script: What's happening to your body at week 24?"
-/copywrite blog "Article: Nutrition in Trimester 2"
-/copywrite email "Newsletter: This week's pregnancy guide (week 24)"
-```
-
-### Thursday (1.5 hours) — Visual Production
-```
-/visual creative "Infographic: Fetal development week 24 for Instagram carousel"
-/visual creative "TikTok thumbnail with hook text overlay"
-/visual creative "Facebook cover image for June"
-```
-
-### Friday (1 hour) — Scheduling + Response
-- Edit video (CapCut): Remove filler, add captions, trending audio
-- Schedule on Buffer: All posts for next 7 days
-- Publish TikTok (can't schedule): Post manually
-- Pin comments with important answers
-
-### Ongoing — Engagement
-- 7am & 7pm: Check new comments, respond <2h
+**Tổng hàng tuần:** ~245 phút = 4 giờ sản xuất + 2 giờ quản lý/phản hồi = **6 giờ/tuần**
 
 ---
 
-## Repurposing Tree — 1 Pillar → 7 Pieces
+## Lịch Sản Xuất Tuần (Tuần 1: 26/05 - 01/06)
 
-### Pillar: "Fetal Development Week 24"
+### Thứ Hai (30 phút) — Lên Kế Hoạch
+- Xem lại lịch nội dung: Những bài nào cần làm tuần này?
+- Kiểm tra bài đăng của đối thủ (phòng khám HAPPY có cập nhật gì không?)
+- Xem lại câu hỏi trong bình luận để tạo nội dung hỏi đáp
+
+### Thứ Ba - Tư (2 giờ) — Sản Xuất Nội Dung Chữ
+```
+/copywrite tiktok "Kịch bản: Bác sĩ trả lời 'Có ăn hải sản khi mang thai được không?'"
+/copywrite instagram "Bài nhiều ảnh: 5 mẹo cho thai kỳ tuần 20-24"
+/copywrite facebook "Kịch bản Reels: Cơ thể bạn đang thay đổi thế nào ở tuần 24?"
+/copywrite blog "Bài viết: Dinh Dưỡng Tam Cá Nguyệt Thứ 2"
+/copywrite email "Bản tin: Hướng dẫn thai kỳ tuần này (tuần 24)"
+```
+
+### Thứ Năm (1,5 giờ) — Sản Xuất Hình Ảnh
+```
+/visual creative "Ảnh thông tin: Bé phát triển tuần 24 cho bài nhiều ảnh Instagram"
+/visual creative "Ảnh đại diện TikTok với chữ câu thu hút"
+/visual creative "Ảnh bìa Facebook tháng 6"
+```
+
+### Thứ Sáu (1 giờ) — Lên Lịch + Phản Hồi
+- Chỉnh sửa video (CapCut): Cắt bỏ đoạn thừa, thêm phụ đề, nhạc xu hướng
+- Lên lịch trên Buffer: Tất cả bài đăng cho 7 ngày tới
+- Đăng TikTok (không lên lịch được): Đăng thủ công
+- Ghim bình luận có câu trả lời quan trọng
+
+### Liên Tục — Tương Tác
+- 7 giờ sáng & 7 giờ tối: Kiểm tra bình luận mới, phản hồi trong vòng 2 giờ
+
+---
+
+## Sơ Đồ Tái Sử Dụng Nội Dung — 1 Bài Gốc → 7 Bài
+
+### Nội dung gốc: "Bé Phát Triển Tuần 24"
 
 ```
-📄 BLOG PILLAR (1500 words)
-"Week 24 Thai Kỳ: Bé Phát Triển Nhanh Chóng, Cơ Thể Mẹ Thay Đổi"
+📄 BÀI BLOG GỐC (1.500 từ)
+"Thai Kỳ Tuần 24: Bé Phát Triển Nhanh Chóng, Cơ Thể Mẹ Thay Đổi"
 
-├── 📱 Instagram Carousel (5 slides)
-│   └── Each slide = 1 key point from blog
+├── 📱 Bài Nhiều Ảnh Instagram (5 trang)
+│   └── Mỗi trang ảnh = 1 điểm quan trọng từ bài blog
 │
-├── 💬 TikTok Scripts (3 videos)
-│   ├── Video 1: "Week 24 fetal development facts"
-│   ├── Video 2: "3 body changes at week 24 (totally normal)"
-│   └── Video 3: "Week 24 symptoms explained"
+├── 🎬 Kịch Bản TikTok (3 video)
+│   ├── Video 1: "Sự thật về sự phát triển của bé tuần 24"
+│   ├── Video 2: "3 thay đổi cơ thể ở tuần 24 (hoàn toàn bình thường)"
+│   └── Video 3: "Giải thích các triệu chứng tuần 24"
 │
-├── 📺 Facebook Reel (1 video, 45 sec)
-│   └── Combine best TikTok hooks + call-to-action
+├── 📺 Reels Facebook (1 video, 45 giây)
+│   └── Kết hợp câu thu hút hay nhất từ TikTok + lời kêu gọi hành động
 │
-├── 📧 Email Newsletter (800 words)
-│   └── Blog summary + actionable tips + CTA
+├── 📧 Bản Tin Email (800 từ)
+│   └── Tóm tắt blog + mẹo có thể áp dụng ngay + lời kêu gọi hành động
 │
-├── 🎨 Infographic (Pinterest-worthy)
-│   └── Visual timeline of week 24 changes
+├── 🎨 Ảnh Thông Tin (đủ tốt để đăng Pinterest)
+│   └── Dòng thời gian hình ảnh về các thay đổi tuần 24
 │
-└── 🔗 LinkedIn Article (professional angle)
-    └── "Why Week 24 Matters: Medical Perspective"
+└── 🔗 Bài Viết LinkedIn (góc độ chuyên môn)
+    └── "Tại Sao Tuần 24 Quan Trọng: Góc Nhìn Y Khoa"
 
-⏱️ Total Production Time: ~3.5 hours
-📊 Total Reach: 1 pillar → 3 TikToks + 1 Carousel + 1 Reel + 1 Newsletter + 1 Blog + 1 LinkedIn = 150K+ potential reach
+⏱️ Tổng thời gian sản xuất: ~3,5 giờ
+📊 Tổng độ tiếp cận: 1 bài gốc → 3 TikTok + 1 Bài nhiều ảnh + 1 Reels + 1 Bản tin + 1 Blog + 1 LinkedIn = 150 nghìn+ lượt tiếp cận tiềm năng
 ```
 
 ---
 
-## Weekly SOP Template (Repeat Every Week)
+## Mẫu Quy Trình Tuần (Lặp Lại Mỗi Tuần)
 
-### Schedule This Week
+### Lịch Tuần Này
 
-**Tagging Format:** [Content Type] — [Pillar] — [Platform]
+**Định dạng gắn nhãn:** [Loại nội dung] — [Trụ cột] — [Nền tảng]
 
-| Day | Task | Time | Deadline | Status |
+| Ngày | Công việc | Thời gian | Hạn | Trạng thái |
 |---|---|---|---|---|
-| Mon | Plan + Research | 30 min | EOD | |
-| Tue-Wed | Write: TikTok(2), IG(1), FB(1), Blog(1), Email(1) | 120 min | EOD Wed | |
-| Thu | Visual: Infographic(1), Thumbnails(2) | 90 min | EOD | |
-| Fri | Edit + Schedule | 60 min | EOD | |
-| Sat-Sun | Respond to comments, plan next week | 30 min | Ongoing | |
+| Thứ Hai | Lên kế hoạch + Nghiên cứu | 30 phút | Cuối ngày | |
+| Thứ Ba-Tư | Viết: TikTok(2), Instagram(1), Facebook(1), Blog(1), Email(1) | 120 phút | Cuối ngày Tư | |
+| Thứ Năm | Hình ảnh: Ảnh thông tin(1), Ảnh đại diện(2) | 90 phút | Cuối ngày | |
+| Thứ Sáu | Chỉnh sửa + Lên lịch | 60 phút | Cuối ngày | |
+| Thứ Bảy-CN | Phản hồi bình luận, lên kế hoạch tuần tới | 30 phút | Liên tục | |
 
-### Content Checklist
+### Danh Sách Kiểm Tra Nội Dung
 
-- [ ] All text content written & grammar-checked
-- [ ] All visuals created or templates filled
-- [ ] Hashtags added (3-5 per platform)
-- [ ] CTA verified (booking link working?)
-- [ ] Compliance review (no "cure" claims)
-- [ ] Scheduled on Buffer 7 days out
-- [ ] TikTok posted manually
-- [ ] Email sent
-- [ ] Comments monitored <2h (set timer)
+- [ ] Tất cả nội dung chữ đã viết xong và kiểm tra ngữ pháp
+- [ ] Tất cả hình ảnh đã tạo hoặc điền vào mẫu
+- [ ] Đã thêm hashtag (3-5 cái mỗi nền tảng)
+- [ ] Đã kiểm tra lời kêu gọi hành động (đường dẫn đặt lịch có hoạt động không?)
+- [ ] Đã kiểm tra tuân thủ (không có tuyên bố "chữa khỏi")
+- [ ] Đã lên lịch trên Buffer 7 ngày trước
+- [ ] Đã đăng TikTok thủ công
+- [ ] Đã gửi email
+- [ ] Đã theo dõi bình luận trong vòng 2 giờ (đặt hẹn giờ)
 
 ---
 
-## Tools List + Budget
+## Danh Sách Công Cụ + Chi Phí
 
-| Tool | Used For | Free? | Cost | Notes |
+| Công cụ | Dùng cho | Miễn phí? | Chi phí | Ghi chú |
 |---|---|---|---|---|
-| **Claude Code** | /copywrite | ✅ Via subscription | Included | Primary writing |
-| **Canva** | /visual creative | Freemium | $13/mo | Pro for brand kit |
-| **CapCut** | Video editing | ✅ | Free | Desktop version |
-| **Buffer** | Social scheduling | Freemium | $5/mo | Unlimited platforms |
-| **Mailchimp** | Email newsletter | Freemium | Free | Up to 500 contacts |
-| **Google Drive** | File storage | ✅ | Free | 15GB free |
-| **Notion** | Content tracking | Freemium | Free | Status dashboard |
+| **Claude Code** | /copywrite | ✅ Theo gói thuê bao | Đã tính | Viết nội dung chính |
+| **Canva** | /visual creative | Freemium | 13 USD/tháng | Bản Pro để dùng bộ nhận diện thương hiệu |
+| **CapCut** | Chỉnh sửa video | ✅ | Miễn phí | Phiên bản máy tính |
+| **Buffer** | Lên lịch mạng xã hội | Freemium | 5 USD/tháng | Không giới hạn nền tảng |
+| **Mailchimp** | Bản tin email | Freemium | Miễn phí | Tối đa 500 liên hệ |
+| **Google Drive** | Lưu trữ tệp | ✅ | Miễn phí | 15GB miễn phí |
+| **Notion** | Theo dõi nội dung | Freemium | Miễn phí | Bảng theo dõi trạng thái |
 
-**Total Cost:** ~$18/month (Canva Pro + Buffer) = **$0.60 per content piece** 🎯
-
----
-
-## 80/20 Optimization Rules
-
-1. **Pillar content first** — 1 pillar = 7 pieces (not 7 separate ideas)
-2. **Batch production** — Write all week's TikToks Tuesday, not daily
-3. **Reuse winning formulas** — If Reel X got 50K views, make 3 more similar
-4. **Outsource only editing** — If hiring, have someone else do CapCut; you write
-5. **Track ROI per platform** — If TikTok = 70% of bookings, spend 40% time there
+**Chi phí tổng:** ~18 USD/tháng (Canva Pro + Buffer) = **0,60 USD mỗi bài nội dung**
 
 ---
 
-## Troubleshooting
+## Quy Tắc Tối Ưu 80/20
 
-**"I don't have time this week"**
-- Cut to 2 pieces: 1 TikTok + 1 Email (both high ROI)
-- Repurpose last week's best performer
-
-**"Not getting engagement"**
-- Check: Hook timing (first 3 sec), caption hooks, posting time
-- Run `/platform algorithm facebook` to refresh latest algorithm changes
-
-**"Can't think of content ideas"**
-- Comment on last week's posts → use questions as content ideas
-- Check competitor new posts → adapt their angle with your expertise
+1. **Ưu tiên nội dung gốc trước** — 1 bài gốc = 7 bài phát sinh (không làm 7 ý tưởng riêng biệt)
+2. **Sản xuất theo lô** — Viết tất cả TikTok của tuần vào thứ Ba, không làm mỗi ngày
+3. **Tái sử dụng công thức thành công** — Nếu Reels X đạt 50 nghìn lượt xem, làm thêm 3 bài tương tự
+4. **Chỉ thuê ngoài phần chỉnh sửa** — Nếu thuê người, để họ làm CapCut; bạn viết nội dung
+5. **Theo dõi hiệu quả từng nền tảng** — Nếu TikTok = 70% lượt đặt lịch, dành 40% thời gian cho đó
 
 ---
 
-**Next:** Use this SOP to produce content weekly. Adjust time estimates after week 1 based on actual hours.
+## Xử Lý Sự Cố
+
+**"Tuần này không có thời gian"**
+- Rút gọn còn 2 bài: 1 TikTok + 1 Email (hiệu quả cao nhất)
+- Tái sử dụng bài hiệu quả nhất tuần trước
+
+**"Không có tương tác"**
+- Kiểm tra: Độ mạnh câu thu hút (3 giây đầu), cách mô tả bài đăng, thời điểm đăng
+- Chạy `/platform algorithm facebook` để cập nhật thay đổi thuật toán mới nhất
+
+**"Không nghĩ ra ý tưởng nội dung"**
+- Xem bình luận trên bài đăng tuần trước → dùng câu hỏi làm ý tưởng nội dung
+- Kiểm tra bài mới của đối thủ → điều chỉnh góc nhìn của họ với chuyên môn của bạn
 
 ---
 
-*Last Updated: 2026-05-10*
+**Bước tiếp:** Dùng quy trình này để sản xuất nội dung hàng tuần. Điều chỉnh ước tính thời gian sau tuần 1 dựa trên số giờ thực tế.
+
+---
+
+*Cập nhật lần cuối: 2026-05-10*
