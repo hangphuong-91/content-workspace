@@ -94,8 +94,22 @@ Không hỏi thêm — chạy ngay:
 - Hashtag: 3–5 hashtag liên quan, không spam
 ```
 
+## Phân Tích Sâu Hơn (SUME Method: Lộ Ra Giả Định Ẩn)
+Dùng khi: thông tin algorithm trông hợp lý nhưng muốn kiểm tra độ vững trước khi áp dụng vào strategy.
+
+Với mỗi "best practice" tìm được, tự hỏi:
+- Assumption ẩn: Điều này đúng với tất cả account hay chỉ với account đã có audience?
+- Nếu sai: Nếu assumption này sai với brand của mình, strategy thay đổi thế nào?
+- Kiểm chứng nhanh: Test 2-3 posts theo hướng này trong 2 tuần trước khi commit toàn bộ strategy
+
+## Bước Tiếp Theo Sau Khi Có Algorithm Cheat Sheet
+- Tích hợp vào Phase 2 (Channel Strategy) của `/content plan`: dùng thông tin tần suất, format, timing
+- Nếu reach đang thấp bất thường: chia sẻ cheat sheet này với `/copywrite [platform]` để điều chỉnh format và hook
+- Lưu file với date-stamp: `platform-algorithm/[platform]-[YYYY-MM].md` để so sánh sau này
+
 ## Lưu ý
-- **Luôn date-stamp output** — thông tin này có hạn sử dụng ~1 tháng
+- **Luôn date-stamp output**, thông tin này có hạn sử dụng khoảng 1 tháng
 - Chạy lại mỗi tháng hoặc khi thấy reach giảm bất thường
-- Thuật toán Google (SEO) thay đổi chậm hơn social — có thể chạy mỗi quý
-- Thông tin từ official blog > thông tin từ influencer/creator speculation
+- Thuật toán Google (SEO) thay đổi chậm hơn social, có thể chạy mỗi quý
+- Thông tin từ official blog có giá trị hơn thông tin từ influencer hoặc creator speculation
+- Ngôn ngữ output: không dùng dấu gạch ngang dài trong output tiếng Việt

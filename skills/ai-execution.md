@@ -107,8 +107,25 @@ Quy trình mỗi tuần cho 1 người vận hành:
 - [ ] Prep brief cho tuần sau
 ```
 
+## Hard Stop Rule
+Skill deliver SOP hoàn chỉnh sau khi phân tích xong content plan. Không hỏi thêm quá 2 lần. Nếu thiếu thông tin, Claude ghi "[Cần confirm]" vào ô đó và tiếp tục. Mục tiêu là bạn có SOP làm việc được ngay trong tuần đầu tiên.
+
+## Phân Tích Sâu Hơn (SUME Method: Chuyển Thông Tin Thành Hành Động)
+Dùng khi: SOP đã có nhưng muốn verify mức độ actionable trước khi dùng thật.
+
+Với mỗi task trong weekly queue, kiểm tra:
+- Hành động có đủ cụ thể không? (Không phải "viết bài" mà phải là "chạy /copywrite facebook với brief: [X]")
+- Quick win nào làm được trong 24 giờ đầu tuần?
+- Cách đo kết quả cụ thể là gì?
+
+## Bước Tiếp Theo Sau Khi Có SOP
+1. Tuần đầu: Follow SOP, ghi chú bước nào mất nhiều thời gian hơn dự kiến
+2. Sau tuần đầu: Điều chỉnh time estimate trong tool matrix cho thực tế hơn
+3. Mỗi tháng: Review repurposing tree, xem pillar nào tạo ra nhiều derivative content nhất để nhân rộng
+
 ## Lưu ý
 - **Quy tắc 80/20:** 20% content tạo ra 80% kết quả. Dùng repurposing tree để tối đa hóa 1 pillar tốt thay vì tạo nhiều content mới.
-- **Batch production:** Viết tất cả caption 1 lần/tuần thay vì mỗi ngày → tiết kiệm 60% thời gian chuyển context
-- **Buffer 20%:** Luôn có 2–3 content pieces "dự phòng" sẵn để đăng nếu tuần đó bận
+- **Batch production:** Viết tất cả caption 1 lần/tuần thay vì mỗi ngày, tiết kiệm 60% thời gian chuyển context
+- **Buffer 20%:** Luôn có 2-3 content pieces dự phòng sẵn để đăng nếu tuần đó bận
 - **SOP này cho người mới:** Người không biết Claude Code có thể follow SOP bằng cách dùng AI tools thủ công theo hướng dẫn trong từng bước
+- **Ngôn ngữ output:** Không dùng dấu gạch ngang dài trong output tiếng Việt

@@ -78,8 +78,26 @@ Bảng so sánh:
 3. Series Q&A từ câu hỏi thật của bệnh nhân (engagement rất cao ở ngành này)
 ```
 
+## Phân Tích Sâu Hơn (SUME Methods)
+Sau khi có audit cơ bản, có thể chọn 1 trong 3 hướng đào sâu:
+
+**Lọc insight chiến lược** — Dùng khi: audit có nhiều data, cần lọc ra cái quan trọng nhất.
+Từ toàn bộ audit, rút ra 5 insights quan trọng nhất. Mỗi insight gồm: nội dung cốt lõi + quyết định nó giúp bạn đưa ra. Cuối cùng tổng hợp meta-pattern.
+
+**Tìm đòn bẩy** — Dùng khi: muốn biết đâu là điểm nhỏ tạo tác động lớn nhất.
+Trong gap analysis, xác định 3 điểm mà effort nhỏ (1-2 content pieces) có thể tạo kết quả lớn không cân xứng. Mỗi leverage point gồm: hành động nhỏ cụ thể, kết quả kỳ vọng, cơ chế tại sao nó hoạt động.
+
+**Kiểm tra độ vững** — Dùng khi: muốn stress-test kết luận trước khi đưa vào content plan.
+Devil's advocate: tìm 3-5 lỗ hổng trong phân tích (logic gap, thiếu evidence, phản ví dụ). Verdict cuối: insight nào vững, insight nào cần verify thêm.
+
+## Bước Tiếp Theo Sau Khi Có Competitor Audit
+1. Lưu file audit vào `content-outputs/[brand]-[YYYY-MM]/competitor-audit.md`
+2. Chạy ngay: `/content plan [topic]` và cung cấp path đến file audit. Phase 1 sẽ tự động tích hợp findings.
+3. Nếu thấy đối thủ dùng một kênh hiệu quả bất ngờ: `/platform algorithm [platform]` để hiểu tại sao
+
 ## Lưu ý
-- Chỉ audit public content — không truy cập thông tin nội bộ hoặc có bảo mật
+- Chỉ audit public content, không truy cập thông tin nội bộ hoặc có bảo mật
 - Số liệu engagement là ước tính từ public data, không phải số chính xác
 - Chạy skill này TRƯỚC `/content plan` để research phase chất lượng hơn
-- Nên cập nhật audit mỗi 2–3 tháng vì chiến lược đối thủ thay đổi
+- Nên cập nhật audit mỗi 2-3 tháng vì chiến lược đối thủ thay đổi
+- Ngôn ngữ output: không dùng dấu gạch ngang dài trong output tiếng Việt

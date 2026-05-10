@@ -115,8 +115,14 @@ pastel mint and navy color palette, soft warm lighting, educational poster,
 flat design with subtle gradients --ar 1:1 --v 6
 ```
 
+## Bước Tiếp Theo Sau Khi Có Visual
+- Upload design lên Notion content database, update status thành "Ready to Post"
+- Nếu cần copy đi kèm: `/copywrite [platform] [brief]` với cùng angle và tone
+- Nếu cần nhiều visual cho 1 series: dùng cùng Canva template, chỉ đổi content từng slide
+
 ## Lưu ý
-- **Ngành y tế:** Không dùng ảnh bệnh nhân thật chưa được đồng ý. Tránh hình ảnh máu/phẫu thuật. Hình minh họa/animation an toàn hơn ảnh thật.
-- **Khuôn mặt:** AI thường generate khuôn mặt không thực tế — nếu cần ảnh người thật, dùng ảnh thật của bác sĩ, chỉ dùng AI cho background/element.
-- **Brand consistency:** Luôn dùng cùng màu sắc, font, logo placement — Canva brand kit giúp tự động hóa điều này.
+- **Ngành y tế:** Không dùng ảnh bệnh nhân thật chưa được đồng ý. Tránh hình ảnh máu hoặc phẫu thuật. Hình minh họa và animation an toàn hơn ảnh thật.
+- **Khuôn mặt:** AI thường generate khuôn mặt không thực tế. Nếu cần ảnh người thật, dùng ảnh thật của bác sĩ, chỉ dùng AI cho background và element.
+- **Brand consistency:** Luôn dùng cùng màu sắc, font, logo placement. Canva brand kit giúp tự động hóa điều này.
 - **Export resolution:** Luôn export PNG cho social, PDF cho print.
+- **Ngôn ngữ output:** Không dùng dấu gạch ngang dài trong creative brief tiếng Việt.

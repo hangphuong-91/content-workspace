@@ -95,7 +95,29 @@ Output dạng bảng:
 - Compliance: Không claim "chữa khỏi", không dùng "100%", có disclaimer
 ```
 
+## Quy Tắc Hard Stop
+Skill phải deliver output hoàn chỉnh sau 5 phases, không kéo dài thêm lượt hỏi. Nếu thiếu thông tin ở phase nào, Claude ghi "Chưa có dữ liệu, sẽ điền sau" và tiếp tục. Mục tiêu là bạn có output làm việc được ngay, không phải perfect plan trên lý thuyết.
+
+## Transparency — Skill Thông Báo Trước Khi Làm
+Ở mỗi phase, Claude sẽ nói ngắn: "Phase [X]: Mình sẽ [làm gì] vì [lý do]." Ví dụ: "Phase 2: Mình xây OPE matrix trước audience vì channel strategy phụ thuộc vào nguồn lực thực tế, không phải ngược lại."
+
+## Phân Tích Sâu Hơn (SUME Methods tích hợp)
+Sau khi có content plan, có thể chạy thêm:
+
+**Lọc insight chiến lược:** Từ situation analysis, rút ra 5 insights quan trọng nhất và meta-pattern xuyên suốt. Dùng khi content plan quá rộng, cần ưu tiên.
+
+**Tìm đòn bẩy:** Trong 3 tháng plan, xác định 3 content pieces có effort nhỏ nhưng tác động lớn nhất. Dùng khi nguồn lực hạn chế, cần focus.
+
+**Kiểm tra độ vững:** Devil's advocate mode, tìm 3-5 lỗ hổng trong channel strategy hoặc messaging. Dùng trước khi present plan cho stakeholder.
+
+## Bước Tiếp Theo Sau Khi Có Content Plan
+1. Chạy ngay: `/ai execution [path-to-plan]` để nhận SOP + tool matrix tuần đầu
+2. Nếu chưa có competitor research: `/competitor research [brand/ngành]`
+3. Verify thuật toán kênh chính: `/platform algorithm [platform]`
+4. Tạo content đầu tiên: `/copywrite [platform] [brief từ plan]`
+
 ## Lưu ý
 - **Ngành y tế:** Tuân thủ Nghị định 38/2021/NĐ-CP về quảng cáo y tế. Không sử dụng hình ảnh bệnh nhân chưa được đồng ý. Không cam kết kết quả điều trị.
-- **Personal brand:** Tone phải cá nhân, ấm áp — không viết như press release công ty
+- **Personal brand:** Tone phải cá nhân, ấm áp, không viết như press release công ty
 - **Kết quả tốt nhất:** Chạy `/competitor research` và `/platform algorithm` trước, cung cấp file comm plan nếu có
+- **Ngôn ngữ output:** Không dùng dấu gạch ngang dài trong output tiếng Việt. Dùng dấu phẩy, dấu chấm, xuống dòng.
