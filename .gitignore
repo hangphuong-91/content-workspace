@@ -1,5 +1,3 @@
-# Sensitive outputs — không push lên public repo
-outputs/*/
 exports/
 
 # Windows
