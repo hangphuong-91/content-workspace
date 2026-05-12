@@ -1,0 +1,125 @@
+{
+  "workspace": "Marketing Content Workspace",
+  "version": "2.1.0",
+  "updated": "2026-05-12",
+  "agents": [
+    {
+      "id": "content-planner",
+      "name": "Content Planner",
+      "file": ".claude/agents/content-planner.md",
+      "role": "CMO — nghiên cứu, kế hoạch chiến lược, giám sát chất lượng",
+      "trigger": "@content-planner",
+      "skills": [
+        "market-intelligence",
+        "competitor-research",
+        "content-plan",
+        "performance-tracking"
+      ],
+      "cadence": {
+        "quarterly": ["competitor-research", "content-plan"],
+        "monthly": ["market-intelligence"],
+        "weekly": ["performance-tracking", "weekly-direction"]
+      },
+      "quality_gate": {
+        "rubric": "5 tiêu chí × 5 điểm = 25 max",
+        "pass_threshold": "16/25 (64%)",
+        "target": "20/25 (80%)",
+        "excellent": "23/25 (92%)",
+        "fail_action": "Trả về Execution Agent — không compromise"
+      },
+      "outputs": [
+        "brand-onboarding.md",
+        "market-intelligence-[YYYY-MM].md",
+        "competitor-audit-[YYYY-MM].md",
+        "content-plan.md",
+        "weekly-direction-W[X].md",
+        "performance-weekly-W[X].md",
+        "performance-monthly-[YYYY-MM].md",
+        "hypothesis-log.md"
+      ],
+      "escalation_rules": [
+        "ER% < 50% benchmark 2 tuần liên tiếp → dừng sản xuất",
+        "Execution rate < 70% trong 2 tuần → tìm nguyên nhân",
+        "Đối thủ viral >10x ER% thông thường → alert ngay",
+        "Algorithm shift lớn → review strategy trước khi đăng tiếp",
+        "Compliance violation → gỡ bài ngay, review queue"
+      ],
+      "hard_rules": [
+        "Thiếu bất kỳ 1 trong 8 onboarding info → không bắt đầu",
+        "Không điều chỉnh plan theo cảm tính — cần lý do đo lường được",
+        "Không bàn giao Execution Brief nếu thiếu bất kỳ field nào",
+        "Không ra quyết định strategy liên tiếp 2 lần mà không review hypothesis log"
+      ]
+    },
+    {
+      "id": "content-execution",
+      "name": "Content Execution",
+      "file": ".claude/agents/content-execution.md",
+      "role": "Operator — sản xuất nội dung, thiết kế, schedule, báo cáo tuần",
+      "trigger": "@content-execution",
+      "skills": [
+        "platform-algorithm",
+        "copywrite",
+        "visual-creative",
+        "schedule-posting",
+        "weekly-report"
+      ],
+      "cadence": {
+        "weekly": {
+          "monday": ["đọc weekly-direction", "platform-algorithm", "confirm production list"],
+          "tuesday-wednesday": ["copywrite hero", "self-check 5 questions", "visual-creative", "repurpose"],
+          "thursday": ["schedule-posting", "Notion update"],
+          "end-of-week": ["weekly-report", "ab-test-log", "GitHub commit", "handoff Planner"]
+        }
+      },
+      "quality_gate": {
+        "self_check": "5 câu hỏi bắt buộc trước khi trình bài",
+        "pass_condition": "Tất cả 5 câu đều ✅",
+        "fail_action": "Viết lại — không trình bản lỗi"
+      },
+      "outputs": [
+        "copywrite-[kênh]-W[X].md",
+        "repurposing-brief-W[X].md",
+        "visual-creative-[loại]-W[X].md",
+        "ab-test-log-W[X].md",
+        "weekly-summary-W[X].md",
+        "update-sheets-W[X].js"
+      ],
+      "hard_rules": [
+        "Không viết 5 kênh song song — hero first",
+        "Không tự approve content",
+        "Không đăng bài chưa có visual (trừ LinkedIn text post)",
+        "Không thông báo complete nếu thiếu bất kỳ output file nào",
+        "Không repurpose mà không có Repurposing Brief",
+        "Persona tag bắt buộc trên mọi Notion content piece"
+      ]
+    }
+  ],
+  "handoff": {
+    "planner_to_execution": {
+      "file": ".claude/agents/handoff-brief-template.md",
+      "timing": "Đầu mỗi quý, trước tuần đầu tiên của quý",
+      "required_sections": 9,
+      "blocking": "Execution Agent không bắt đầu sản xuất khi Brief chưa 100%"
+    },
+    "execution_to_planner": {
+      "files": ["weekly-summary-W[X].md", "ab-test-log-W[X].md", "update-sheets-W[X].js"],
+      "timing": "Cuối mỗi tuần (Thứ 6 hoặc Chủ nhật)",
+      "notification_format": "Tuần [X] complete. [X] bài / [X] kênh. A/B winner: V[X]. Files ready."
+    }
+  },
+  "workflow": {
+    "quarterly": "Planner: competitor-research → market-intelligence → content-plan → Execution Brief → bàn giao Execution",
+    "monthly": "Planner: market-intelligence refresh → quyết định điều chỉnh plan → thông báo Execution trước Thứ 2",
+    "weekly": "Execution: sản xuất → weekly-report → Planner: performance-tracking → weekly-direction mới"
+  },
+  "integrations": {
+    "notion": "Single source of truth — content calendar + tracking + brand voice",
+    "google_sheets": "Reporting read-only — 4 tabs (Performance, Monthly KPI, Competitor Intel, Calendar View)",
+    "google_drive": "File storage — designs, reports, exports",
+    "buffer": "Scheduling — social media queue",
+    "zapier": "Automation — Notion Status=Ready → Buffer queue trigger",
+    "github": "Version control — all output files committed weekly",
+    "canva": "Design tool — brand kit + structured design + export"
+  }
+}
