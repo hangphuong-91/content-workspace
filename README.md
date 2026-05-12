@@ -1,10 +1,11 @@
-# Marketing Content Workspace — Hệ Thống 6 Skills Claude Code
+# Marketing Content Workspace — Hệ Thống 7 Skills Claude Code
 
-**Phiên bản:** 1.0.0  
+**Phiên bản:** 1.1.0  
 **Ngày tạo:** 2026-05-10  
+**Cập nhật:** 2026-05-12  
 **Repository:** https://github.com/hangphuong-91/content-workspace
 
-Workspace Claude Code hoàn chỉnh cho marketer một người hoặc nhóm nhỏ. 6 skills kết nối với nhau + tích hợp công cụ ngoài (Notion, Google Drive, Canva, GitHub) = máy tạo nội dung từ đầu đến cuối.
+Workspace Claude Code hoàn chỉnh cho marketer một người hoặc nhóm nhỏ. 7 skills kết nối với nhau + tích hợp công cụ ngoài (Notion, Google Drive, Canva, GitHub, Buffer, Zapier) = máy tạo & đăng nội dung tự động từ đầu đến cuối.
 
 ---
 
@@ -25,7 +26,7 @@ Phù hợp cho:
 
 ---
 
-## 6 Skills Cốt Lõi
+## 7 Skills Cốt Lõi
 
 | Skill | Lệnh | Chức năng | Khi nào dùng |
 |---|---|---|---|
@@ -35,6 +36,7 @@ Phù hợp cho:
 | **Viết bài** | `/copywrite [nền tảng] [brief]` | Bài viết theo nền tảng × 3 biến thể thử nghiệm A/B | Sản xuất hàng tuần |
 | **Thiết kế hình ảnh** | `/visual creative [brief]` | Brief thiết kế, câu lệnh AI tạo ảnh, thiết kế Canva | Sản xuất hình ảnh hàng tuần |
 | **Thực thi AI** | `/ai execution [file-kế-hoạch]` | Biến kế hoạch thành quy trình + lịch hàng tuần + sơ đồ tái sử dụng (Repurposing) | Vận hành và bàn giao |
+| **Lịch đăng bài tự động** | `/schedule posting [brand]` | Setup Zapier → Buffer → Facebook automation. Zero manual posting. | Sau khi approve content |
 
 ---
 
@@ -51,7 +53,7 @@ cp -r .claude/skills ~/.claude/skills
 cp .claude/skills-manifest.json ~/.claude/
 
 # Khởi động lại Claude Code
-# Gõ / để thấy 6 skills
+# Gõ / để thấy 7 skills
 ```
 
 ### Bước 2: Kết Nối Công Cụ Ngoài
@@ -77,13 +79,14 @@ Cần kết nối MCP:
 
 ## Nội Dung Workspace
 
-### Skills (6 files)
+### Skills (7 files)
 - `content-plan.md` — Điều phối, 5 giai đoạn, lịch nội dung (Content Calendar) 3 tháng
 - `competitor-research.md` — Phân tích, phân tích khoảng trống (Gap Analysis), SWOT
 - `platform-algorithm.md` — Thuật toán (Algorithm) mới nhất theo nền tảng
 - `copywrite.md` — Frameworks theo nền tảng + 24 thiên kiến nhận thức
 - `visual-creative.md` — Quy trình 3 bước: brief → câu lệnh AI tạo ảnh → Canva
 - `ai-execution.md` — Quy trình, bảng công cụ, sơ đồ tái sử dụng nội dung (Repurposing)
+- `schedule-posting.md` — Zapier + Buffer + Notion automation cho đăng bài tự động
 
 ### Supporting Files (19 mẫu & hướng dẫn)
 - Mẫu: brief, kế hoạch, theo dõi, kiểm tra, quy trình

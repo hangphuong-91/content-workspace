@@ -92,6 +92,26 @@
         "/ai execution content-outputs/bacsi-sanphukhoa-2026-05/content-plan.md",
         "/ai execution"
       ]
+    },
+    {
+      "id": "schedule-posting",
+      "name": "schedule-posting",
+      "title": "Lịch Đăng Bài Tự Động",
+      "description": "Tự động schedule content từ Notion → Buffer → Facebook fanpage theo lịch. Setup Zapier automation + hướng dẫn Buffer step-by-step.",
+      "trigger": "/schedule posting [brand] [tháng]",
+      "file": ".claude/skills/schedule-posting.md",
+      "dependencies": ["content-plan (required — cần Notion Content Calendar)", "Buffer account", "Zapier account"],
+      "outputs": ["Zapier Zap (automation)", "Buffer scheduled queue", "Notion auto-updated"],
+      "supporting_files": [
+        ".claude/skills/schedule-posting/buffer-setup.md",
+        ".claude/skills/schedule-posting/zapier-template.md",
+        ".claude/skills/schedule-posting/notion-database-checklist.md"
+      ],
+      "integrations": ["Buffer API", "Zapier", "Notion", "Facebook fanpage"],
+      "examples": [
+        "/schedule posting \"bacsi-sanphukhoa\" \"2026-05\"",
+        "/schedule posting"
+      ]
     }
   ],
   "external_integrations": {
