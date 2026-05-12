@@ -1,0 +1,80 @@
+{
+  "skills": [
+    {
+      "id": "content-plan",
+      "name": "Content Plan",
+      "description": "3-month content strategy planning with 5 phases",
+      "trigger": "/content plan [topic]",
+      "file": "content-plan.md",
+      "agent": "Content Planner",
+      "cadence": "Quarterly"
+    },
+    {
+      "id": "market-intelligence",
+      "name": "Market Intelligence",
+      "description": "Monthly pulse: SEO keywords + algorithm updates + competitor trends",
+      "trigger": "/market-intelligence [brand] [month]",
+      "file": "market-intelligence.md",
+      "agent": "Content Planner",
+      "cadence": "Monthly"
+    },
+    {
+      "id": "competitor-research",
+      "name": "Competitor Research",
+      "description": "Deep audit of 3-5 competitors, SWOT analysis, gap findings",
+      "trigger": "/competitor research [brand/industry]",
+      "file": "competitor-research.md",
+      "agent": "Content Planner",
+      "cadence": "Quarterly"
+    },
+    {
+      "id": "platform-algorithm",
+      "name": "Platform Algorithm",
+      "description": "Fresh algorithm updates for Facebook, TikTok, Instagram, etc.",
+      "trigger": "/platform algorithm [platform]",
+      "file": "platform-algorithm.md",
+      "agent": "Content Execution",
+      "cadence": "Monthly"
+    },
+    {
+      "id": "copywrite",
+      "name": "Copywrite",
+      "description": "Generate 3 copy variations per platform with strategic framing",
+      "trigger": "/copywrite [platform] [brief]",
+      "file": "copywrite.md",
+      "agent": "Content Execution",
+      "cadence": "Per content piece"
+    },
+    {
+      "id": "visual-creative",
+      "name": "Visual Creative",
+      "description": "Design briefs, AI image prompts, Canva design generation",
+      "trigger": "/visual creative [brief]",
+      "file": "visual-creative.md",
+      "agent": "Content Execution",
+      "cadence": "Per content piece"
+    },
+    {
+      "id": "think-coach",
+      "name": "Think-Coach",
+      "description": "Structured problem decomposition using 5W/1H framework",
+      "trigger": "/think-coach [problem]",
+      "file": "think-coach.md",
+      "agent": "Content Planner",
+      "cadence": "As-needed QA gate",
+      "created": "2026-05-12"
+    },
+    {
+      "id": "sume-kit",
+      "name": "Sume-Kit",
+      "description": "Data synthesis: combine 3+ sources → patterns → insights → actions",
+      "trigger": "/sume-kit [source files]",
+      "file": "sume-kit.md",
+      "agent": "Content Execution",
+      "cadence": "Weekly + Monthly",
+      "created": "2026-05-12"
+    }
+  ],
+  "version": "2.0",
+  "lastUpdated": "2026-05-12"
+}
