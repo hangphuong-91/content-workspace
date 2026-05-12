@@ -94,6 +94,60 @@
       ]
     },
     {
+      "id": "market-intelligence",
+      "name": "market-intelligence",
+      "title": "Nghiên Cứu Thị Trường Hàng Tháng",
+      "description": "1 skill thay cho 3: SEO keywords + algorithm updates + competitor pulse. Chạy hàng tháng, date-stamped. Dùng bởi Content Planner Agent.",
+      "trigger": "/market-intelligence [brand] [tháng]",
+      "file": ".claude/skills/market-intelligence.md",
+      "agent": "content-planner",
+      "dependencies": ["WebSearch", "Ahrefs/SEMrush API (optional)"],
+      "outputs": ["market-intelligence-[YYYY-MM].md"],
+      "supporting_files": [
+        ".claude/skills/market-intelligence/keyword-sources.md"
+      ],
+      "cadence": "Hàng tháng, đầu tháng",
+      "examples": [
+        "/market-intelligence \"bacsi-sanphukhoa\" 2026-05",
+        "/market-intelligence \"ca-phe-specialty\" 2026-06"
+      ]
+    },
+    {
+      "id": "performance-tracking",
+      "name": "performance-tracking",
+      "title": "Theo Dõi Hiệu Suất — CMO Level",
+      "description": "Thu thập metrics thực tế → so sánh KPI planned → CMO quality check → recommendations + Google Sheets update qua Apps Script.",
+      "trigger": "/performance-tracking [brand] [tuần/tháng]",
+      "file": ".claude/skills/performance-tracking.md",
+      "agent": "content-planner",
+      "dependencies": ["content-plan (cần KPI planned)", "Buffer Analytics hoặc Meta Business Suite"],
+      "outputs": ["performance-weekly-W[X].md", "performance-monthly-[YYYY-MM].md", "update-sheets-monthly.js"],
+      "supporting_files": [
+        ".claude/skills/performance-tracking/kpi-benchmark.md"
+      ],
+      "cadence": "Hàng tuần (quick) + hàng tháng (deep)",
+      "examples": [
+        "/performance-tracking \"bacsi-sanphukhoa\" tuần-3",
+        "/performance-tracking \"bacsi-sanphukhoa\" tháng-5"
+      ]
+    },
+    {
+      "id": "weekly-report",
+      "name": "weekly-report",
+      "title": "Báo Cáo Tuần — Execution Summary",
+      "description": "Tổng hợp tuần sản xuất → cập nhật Notion → tạo Apps Script update Google Sheets → handoff cho Content Planner review.",
+      "trigger": "/weekly-report [brand] [tuần]",
+      "file": ".claude/skills/weekly-report.md",
+      "agent": "content-execution",
+      "dependencies": ["Buffer Analytics", "Notion MCP"],
+      "outputs": ["weekly-summary-W[X].md", "update-sheets-W[X].js"],
+      "cadence": "Cuối mỗi tuần",
+      "examples": [
+        "/weekly-report \"bacsi-sanphukhoa\" tuần-3",
+        "/weekly-report \"bacsi-sanphukhoa\" W12"
+      ]
+    },
+    {
       "id": "schedule-posting",
       "name": "schedule-posting",
       "title": "Lịch Đăng Bài Tự Động",
@@ -134,6 +188,18 @@
       "tool": "gh CLI",
       "used_by": ["content-plan", "ai-execution"],
       "purpose": "Version control, repo content-workspace"
+    }
+  },
+  "agents": {
+    "content-planner": {
+      "file": ".claude/agents/content-planner.md",
+      "role": "CMO — nghiên cứu, kế hoạch, giám sát chất lượng",
+      "skills": ["market-intelligence", "competitor-research", "content-plan", "performance-tracking"]
+    },
+    "content-execution": {
+      "file": ".claude/agents/content-execution.md",
+      "role": "Operator — sản xuất, thiết kế, schedule, báo cáo tuần",
+      "skills": ["platform-algorithm", "copywrite", "visual-creative", "schedule-posting", "weekly-report"]
     }
   },
   "workflow_sequence": [

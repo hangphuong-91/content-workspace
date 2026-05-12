@@ -1,0 +1,86 @@
+{
+  "workspace": "Marketing Content Workspace",
+  "version": "2.0.0",
+  "updated": "2026-05-12",
+  "agents": [
+    {
+      "id": "content-planner",
+      "name": "Content Planner",
+      "file": ".claude/agents/content-planner.md",
+      "role": "CMO — nghiên cứu, kế hoạch chiến lược, giám sát chất lượng",
+      "trigger": "@content-planner",
+      "skills": [
+        "market-intelligence",
+        "competitor-research",
+        "content-plan",
+        "performance-tracking"
+      ],
+      "cadence": {
+        "quarterly": ["competitor-research", "content-plan"],
+        "monthly": ["market-intelligence"],
+        "weekly": ["performance-tracking"]
+      },
+      "outputs": [
+        "market-intelligence-[YYYY-MM].md",
+        "competitor-audit-[YYYY-MM].md",
+        "content-plan.md",
+        "performance-weekly-W[X].md",
+        "performance-monthly-[YYYY-MM].md"
+      ],
+      "escalation_rules": [
+        "ER% < 50% benchmark 2 tuần liên tiếp",
+        "Thực thi < 70% content plan",
+        "Đối thủ viral content mới",
+        "Algorithm thay đổi lớn"
+      ]
+    },
+    {
+      "id": "content-execution",
+      "name": "Content Execution",
+      "file": ".claude/agents/content-execution.md",
+      "role": "Operator — sản xuất nội dung, thiết kế, schedule, báo cáo tuần",
+      "trigger": "@content-execution",
+      "skills": [
+        "platform-algorithm",
+        "copywrite",
+        "visual-creative",
+        "schedule-posting",
+        "weekly-report"
+      ],
+      "cadence": {
+        "weekly": {
+          "monday": ["platform-algorithm"],
+          "tuesday-wednesday": ["copywrite", "visual-creative"],
+          "thursday": ["schedule-posting"],
+          "end-of-week": ["weekly-report"]
+        }
+      },
+      "outputs": [
+        "copywrite-[kênh]-W[X].md",
+        "visual-creative-[loại]-W[X].md",
+        "weekly-summary-W[X].md",
+        "update-sheets-W[X].js"
+      ],
+      "principles": [
+        "Hero first, repurpose smart",
+        "Algorithm-informed writing",
+        "Không tự approve content",
+        "Brand voice consistency"
+      ]
+    }
+  ],
+  "workflow": {
+    "quarterly": "content-planner → content-execution (handoff plan)",
+    "monthly": "content-planner refresh → content-execution adjust",
+    "weekly": "content-execution produce → weekly-report → content-planner review"
+  },
+  "integrations": {
+    "notion": "Single source of truth — content calendar + tracking",
+    "google_sheets": "Reporting read-only — 4 tabs (Performance, Monthly KPI, Competitor Intel, Calendar View)",
+    "google_drive": "File storage — designs, reports, exports",
+    "buffer": "Scheduling — social media queue",
+    "zapier": "Automation — Notion → Buffer trigger",
+    "github": "Version control — all outputs committed",
+    "canva": "Design tool — brand kit + export"
+  }
+}
