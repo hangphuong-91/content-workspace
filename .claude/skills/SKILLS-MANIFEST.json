@@ -73,8 +73,28 @@
       "agent": "Content Execution",
       "cadence": "Weekly + Monthly",
       "created": "2026-05-12"
+    },
+    {
+      "id": "writing-style-hang",
+      "name": "Writing Style — Hằng",
+      "description": "Brand voice identity, structural patterns (A/B/C/D), hard rules, forbidden phrases, and final self-test for Hằng's writing style. Read by /copywrite before generating any content.",
+      "trigger": "Reference only — no slash command. Loaded automatically when brand = Hằng.",
+      "file": "writing-style-hang.md",
+      "agent": "Content Execution",
+      "cadence": "Read before every /copywrite run",
+      "created": "2026-05-13"
+    },
+    {
+      "id": "content-writing-skill-hang",
+      "name": "Content Writing Skill — Hằng",
+      "description": "Step-by-step writing process for Hằng's content: content type identification, structure selection (A/B personal / C/D B2B), writing checklist per section, platform guidelines (Facebook/LinkedIn/Zalo/Email), and hard rules.",
+      "trigger": "Reference only — no slash command. Used together with writing-style-hang.md.",
+      "file": "content-writing-skill-hang.md",
+      "agent": "Content Execution",
+      "cadence": "Read before every /copywrite run when brand = Hằng",
+      "created": "2026-05-13"
     }
   ],
-  "version": "2.0",
-  "lastUpdated": "2026-05-12"
+  "version": "2.1",
+  "lastUpdated": "2026-05-13"
 }
