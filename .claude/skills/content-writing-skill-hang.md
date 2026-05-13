@@ -93,9 +93,10 @@ Không phải bài nào cũng cần. Chỉ dùng khi khái niệm trừu tượn
 ### DẤU CÂU VÀ KÝ HIỆU
 ✓ Bài cá nhân: dùng ":)))", "=)))" tự nhiên khi phù hợp
 ✓ Bài B2B: không emoji, dấu câu theo ngữ pháp chuẩn
-✓ Dấu "—" để ngắt ý mạnh (không phải dấu "-")
 ✗ Không dùng dấu "-" để liệt kê
-✗ Hạn chế dấu ":" — chỉ dùng khi thật sự cần giới thiệu một danh sách không thể tránh
+✗ Không dùng dấu "—" em dash. Thay bằng dấu phẩy hoặc tách thành câu riêng
+✗ Không dùng dấu ":" trong thân bài. Thay bằng dấu chấm, dấu phẩy, hoặc câu mới
+✗ Không trộn tiếng Anh vào câu tiếng Việt khi có cách nói tự nhiên bằng tiếng Việt. Từ kỹ thuật không có tương đương thì giữ
 ✗ Không dùng "•" hoặc ký hiệu bullet bất kỳ
 
 ### CHÍNH TẢ VÀ TỪ NGỮ
@@ -128,7 +129,8 @@ Không phải bài nào cũng cần. Chỉ dùng khi khái niệm trừu tượn
 **Cấu trúc**
 - [ ] Mở bài có hình ảnh hoặc chi tiết cụ thể không?
 - [ ] Có bullet hoặc dấu "-" nào không? → Xóa, viết lại thành đoạn văn
-- [ ] Có dùng ":" quá nhiều không?
+- [ ] Có dùng dấu ":" hoặc "—" không? → Xóa, thay bằng dấu phẩy hoặc câu mới
+- [ ] Có trộn tiếng Anh không? → Đổi sang tiếng Việt nếu có cách nói tự nhiên
 - [ ] Kết bài có phải kết luận lớn không? → Thay bằng chi tiết nhỏ hoặc câu hỏi
 
 **Chính tả**
@@ -229,3 +231,5 @@ Mở bằng quan sát cụ thể → kể trải nghiệm thật học Claude Co
 4. Không dùng câu chuyện người khác làm đà bán hàng
 5. Không copy framework có tên từ client mà không có trải nghiệm thật backup
 6. Không để lỗi chính tả trong output cuối
+7. Không dùng dấu ":" hoặc dấu "—" trong thân bài
+8. Không trộn tiếng Anh vào câu tiếng Việt khi có cách nói tự nhiên bằng tiếng Việt
