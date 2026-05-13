@@ -28,66 +28,64 @@
 ### Variation V1: Emotional Hook (RECOMMENDED)
 
 ```
-Từ 1/7/2026: Nghỉ thai sản con thứ 2 tăng lên 7 tháng — đây là 3 điều mẹ bầu cần biết ngay 👇
+1/7/2026 chưa đến, nhưng nếu đang tính chuyện con thứ 2, bạn nên biết điều này trước.
 
-Thai kỳ là quyết định cả gia đình. Không chỉ mẹ, chồng, ba mẹ chồng cũng cần hiểu nó. BS Thư giải thích nhanh từ góc bác sĩ sản khoa để các mẹ không bị hiểu nhầm.
+Nghỉ thai sản sẽ tăng từ 6 lên 7 tháng — và chồng được nghỉ 10 ngày thay vì 5-7 ngày như trước. Nhưng luật mới đi kèm điều kiện cụ thể, không phải ai cũng tự động được hưởng. BS Thư giải thích rõ từng trường hợp để bạn không bị bất ngờ khi cần.
 
-Đặc biệt: Nếu bạn đang lên kế hoạch con thứ 2, bạn PHẢI biết 3 điều này.
+Và vì đây là quyết định của cả nhà — gửi cho chồng đọc cùng cũng được.
 
-📌 Lưu lại + Gửi cho chồng và gia đình đọc cùng — vì quyết định sinh con cần cả nhà hiểu rõ.
+📌 Lưu lại để hỏi thêm lần khám tiếp.
 
 #nghithaisancongtac #luatdanso2026 #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Emotion hook: "cần biết ngay" = urgency for family
-- Bridge to husband: "Gửi cho chồng" = increases shares (private sharing algo signal)
-- Reassurance: "BS Thư giải thích" = credibility
-- Action: Save + share = measurable engagement
+- Mở bằng bối cảnh cụ thể (thời điểm + điều kiện), không mở bằng thông báo sự kiện
+- Sự thật ngược chiều ("không phải ai cũng tự động được hưởng") → tạo nhu cầu xem tiếp
+- "Và vì đây là quyết định của cả nhà" — nối ý tự nhiên, không giải thích
+- CTA ngắn, không kiểu brochure
 
 ---
 
 ### Variation V2: Practical/Logistics Focus
 
 ```
-Bạn đang lên kế hoạch con thứ 2 không? Thì bạn PHẢI biết luật mới từ 1/7/2026 🗓️
+Có người hỏi mình: con thứ 2 thì nghỉ được mấy tháng? 🗓️
 
-Nghỉ thai sản con thứ 2 tăng từ 6 lên 7 tháng, chồng nghỉ 10 ngày (tăng từ 5-7 ngày). Nhưng — cảnh báo: không phải ai cũng được hưởng. BS Thư giải thích cụ thể điều kiện + lợi ích để bạn quyết định đúng.
+Từ 1/7/2026, câu trả lời sẽ là 7 tháng — tăng từ 6 tháng như hiện tại. Chồng cũng được nghỉ 10 ngày thay vì 5-7 ngày. Nhưng không phải trường hợp nào cũng áp dụng tự động — có điều kiện cụ thể đi kèm. BS Thư giải thích đủ để bạn tự tính trước khi lên kế hoạch.
 
-Nếu bạn không có vợ/bạn bầu trong nhà, hãy lưu bài này lại. Chắc chắn bạn sẽ cần lúc nào đó.
+Chưa có bầu bí gì nhưng trong nhà sắp có? Lưu lại phòng khi cần.
 
-💾 Lưu + chia sẻ với những người chuẩn bị sinh con nhé!
+💾 Chia sẻ cho ai đang lên kế hoạch sinh con nhé.
 
 #luatdanso #nghithaisanphaidung #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Opens with "bạn đang lên kế hoạch" = direct address
-- Specific numbers (7 months, 10 days) = credibility
-- "Cảnh báo: không phải ai cũng được" = creates need to read full video
-- "Bạn sẽ cần lúc nào đó" = long-tail retention
+- Mở bằng tình huống cụ thể (câu hỏi thật từ ai đó), không mở bằng "bạn PHẢI biết"
+- Số liệu cụ thể giữ nguyên (7 tháng, 10 ngày) → credibility
+- Sự thật phức tạp hóa ("có điều kiện đi kèm") tạo lý do xem video
+- Kết bằng tình huống nhỏ ("chưa có bầu nhưng..."), không phải tổng kết
 
 ---
 
 ### Variation V3: Social Proof/FOMO
 
 ```
-Ở nhà chưa lâu sau khi sinh con, lại phải quay lại công việc? 😟 
+Vừa sinh xong, chưa kịp thở, đã tính ngày quay lại làm. 😟
 
-Tin tốt: từ 1/7/2026, mẹ bầu có thêm 1 tháng nghỉ (7 tháng thay vì 6). Nhưng tin xấu: không phải lúc nào cũng áp dụng.
+Từ 1/7/2026, nghỉ thai sản con thứ 2 sẽ tăng lên 7 tháng. Một tháng nhiều hơn — không nhiều, nhưng với mẹ mới sinh thì không nhỏ. Vấn đề là điều kiện áp dụng không đơn giản như nghe, và nhiều người chỉ biết sau khi đã quay đi làm rồi. BS Thư giải thích rõ để bạn tính được trước.
 
-Mình đã thấy nhiều mẹ bầu không biết điều này, để sau sinh mới phát hiện. BS Thư giải thích đúng điều kiện để các mẹ không bị bất ngờ.
-
-⏰ Lưu video này, xem khi có dính đến chuyện sinh con. Rồi bạn sẽ biết tại sao nó quan trọng.
+⏰ Lưu lại, xem khi cần. Hoặc gửi cho ai đang lên kế hoạch.
 
 #luat #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Problem hook: "phải quay lại công việc" = pain point moms feel
-- Benefit: "thêm 1 tháng nghỉ"
-- Social proof: "nhiều mẹ bầu không biết"
-- Long-form CTAssave để viewed later (different from TikTok urgency)
+- Mở bằng khoảnh khắc cụ thể, không phải câu hỏi tu từ
+- Ý chảy trong đoạn văn: benefit → reality → pain point → solution → không cần tách dòng giải thích
+- "Không nhiều, nhưng với mẹ mới sinh thì không nhỏ" — bẻ cua nhẹ, tạo nhịp đọc
+- Kết gọn, không tổng kết
 
 ---
 
@@ -98,91 +96,72 @@ Mình đã thấy nhiều mẹ bầu không biết điều này, để sau sinh 
 ### Variation V1: Educational (RECOMMENDED)
 
 ```
-Lịch khám thai chuẩn — lưu lại ngay kẻo quên 📌
+Lịch khám thai chuẩn — lưu lại kẻo đến lúc cần thì không nhớ 📌
 
-9 mốc quan trọng này là "xương sống" của một thai kỳ an toàn. Mỗi mốc có mục tiêu riêng — không phải cứ đi khám là xong, mà phải khám ĐÚNG THỜI ĐIỂM.
+9 mốc này là xương sống của một thai kỳ an toàn. Không phải cứ đi khám là xong — mỗi mốc có mục tiêu riêng, và chỉ làm được ở đúng tuần thai đó.
 
 [Xem thêm]
 
-Các mẹ hay bỏ lỡ 2 mốc quan trọng nhất:
-• Tuần 11-13: Siêu âm sàng lọc dị tật (double test)
-• Tuần 20-22: Siêu âm hình thái (đánh giá toàn bộ cơ quan bé)
+Hai mốc mẹ bầu hay bỏ lỡ nhất là tuần 11-13 (siêu âm sàng lọc dị tật) và tuần 20-22 (siêu âm hình thái, đánh giá toàn bộ cơ quan của bé). Bỏ lỡ hai mốc này là bỏ luôn cơ hội sàng lọc sớm — không có lần khám nào về sau bù lại được.
 
-Lỡ 2 mốc này = không thể sàng lọc bệnh lý sớm. Sau đó không còn cơ hội.
-
-💾 Save bài này + tag bạn bầu chuẩn bị mang thai!
+💾 Lưu lại, và gửi cho bạn bầu nào đang cần nhé.
 
 #khámthai #lịchkhámthai #thaiky #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Hook: "Lưu lại ngay" = sense of urgency to save
-- First lines (pre-"Xem thêm") explains value clearly
-- Numbered key points = easy to screenshot
-- Long-form explanation = Facebook's algorithm rewards engagement
-- Tag friends = increases reach
+- Pre-fold: mở bằng lý do cụ thể để lưu (không phải "ngay kẻo quên" trừu tượng)
+- Sau fold: thông tin quan trọng nhất nằm trong đoạn văn liên tục, không bullet
+- "Bỏ lỡ hai mốc này là bỏ luôn cơ hội" — urgency tự nhiên từ consequence, không phải từ CAPS lock
+- CTA ngắn, không brochure
 
 ---
 
 ### Variation V2: Emotional/Reassurance Focus
 
 ```
-Em đang mang thai lần đầu và không biết khám khi nào là chuẩn? Đây là lịch khám thai "vàng" mà bs khuyên hết 👇
+Mang thai lần đầu, bạn khám bao nhiêu lần là đủ?
 
-Khám định kỳ không phải để kinh doanh, mà để bảo vệ bé. Mỗi lần khám có mục tiêu cụ thể — tùy tuần thai.
+Không có con số cố định — nhưng có 9 mốc mà bỏ qua bất kỳ mốc nào cũng không làm lại được. Khám định kỳ không phải để kinh doanh, mà mỗi lần có một mục tiêu cụ thể chỉ làm được ở tuần thai đó.
 
 [Xem thêm]
 
-Đặc biệt quan trọng:
-✅ Tuần 11-13: Phát hiện dị tật sớm
-✅ Tuần 20-22: Kiểm tra toàn bộ cơ quan bé
-✅ Tuần 30+: Chuẩn bị cho ngày sinh
+Tuần 11-13 là để sàng lọc dị tật sớm. Tuần 20-22 là để kiểm tra toàn bộ cơ quan của bé. Tuần 30 trở đi là để chuẩn bị cho ngày sinh. BS Thư giải thích tại sao mỗi mốc lại quan trọng — không phải theo lý thuyết, mà từ góc bác sĩ thực tế thấy hàng ngày.
 
-BS Thư sẽ giải thích từng mốc — tại sao lại khám, khám cái gì, có bình thường không?
-
-Save + tag bạn bầu — cùng nhau hiểu rõ thai kỳ.
+Lưu lại và gửi cho bạn bầu đang cần nhé.
 
 #thaiky #khámthaivàng #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Opens with "em đang mang thai lần đầu" = direct address to Thủy persona
-- Reassurance: "không phải để kinh doanh" = builds trust
-- Checkmarks = visual clarity
-- Educational: explains WHY each trimester matters
-- Community: "tag bạn bầu"
+- Pre-fold: câu hỏi thật mà mẹ bầu lần đầu đang tự hỏi — không phải câu hỏi tu từ để dẫn dắt
+- Sau fold: 3 mốc quan trọng viết thành đoạn văn liên tục, không checkmark list
+- "Không phải theo lý thuyết, mà từ góc bác sĩ thực tế" — trust signal tự nhiên hơn credential listing
+- Kết bằng hành động cụ thể, không phải "cùng nhau"
 
 ---
 
 ### Variation V3: Practical/Checklist Focus
 
 ```
-Checklist khám thai — bạn làm hết cả 9 mốc chưa? 📋
+Khám nhiều chưa chắc là khám đủ. 📋
 
-Có mẹ bầu khám 3-4 lần rồi tưởng đủ. Có mẹ khám 10 lần nhưng bỏ lỡ mốc quan trọng. Vì không ai hướng dẫn cho họ.
+Có mẹ bầu đi khám 10 lần nhưng bỏ qua đúng mốc tuần 11-13 — vì không ai nhắc. Có mẹ nghĩ 3-4 lần là xong. Cả hai đều thiếu không phải vì lười, mà vì không biết mỗi mốc khám để làm gì.
 
 [Xem thêm]
 
-Thay vì tự tìm trên Google (vừa sợ vừa lủng lẳng), hãy dùng checklist này:
+9 mốc trong infographic này là những gì BS Thư theo dõi cho từng thai kỳ: từ tuần 6-8 để xác nhận tim thai, đến tuần 11-13 sàng lọc dị tật, đến tuần 20-22 kiểm tra hình thái bé. Mỗi mốc có mục tiêu riêng mà không mốc nào thay thế được.
 
-🔄 Tuần 6-8: Khám lần đầu (xác nhận thai)
-🔄 Tuần 11-13: Double test (sàng lọc)
-🔄 Tuần 20-22: Siêu âm hình thái
-[... 6 mốc còn lại]
-
-In ra, ghi vào điện thoại, tìm bác sĩ đó hỏi — để đừng bị bỏ lỡ.
-
-Save để có nơi tra cứu dễ dàng.
+Lưu lại để không phải nhớ — hoặc gửi cho bạn đang mang thai lần đầu.
 
 #khámthaichuanhan #mebau #pkspkhappy
 ```
 
 **Why this works:**
-- Opens with question: "bạn làm hết 9 mốc chưa?" = self-check
-- Problem: "bỏ lỡ mốc quan trọng" = pain point
-- Solution: Clear checklist
-- CTA: "In ra, ghi vào điện thoại" = actionable (increases saves)
-- Helps reduce anxiety (main reason Thủy persona engages)
+- Mở bằng quan điểm ngược ("khám nhiều chưa chắc đủ") — cấu trúc D contrarian
+- Dùng ví dụ cụ thể (10 lần vẫn thiếu, 3-4 lần nghĩ xong) thay vì liệt kê checklist
+- Sau fold: nội dung infographic được mô tả trong đoạn văn liên tục, không emoji bullet
+- Kết bằng 2 hành động song song — lưu hoặc gửi — không phải kết luận
 
 ---
 
@@ -193,79 +172,64 @@ Save để có nơi tra cứu dễ dàng.
 ### Variation V1: Reassurance (RECOMMENDED)
 
 ```
-Thai tuần 8 mà bé còn nhỏ xíu — nhiều mẹ lo không cần thiết 😟
+Thai tuần 8, bé nhỏ như hạt đậu — và nhiều mẹ đang lo về điều đó. 😟
 
-Tôi hiểu nỗi lo đó. Em đọc Google thấy bé "phải nặng" bao nhiêu, rồi sợ quá. Hôm nay BS Thư giải thích: con số không phải tất cả.
+Mình hiểu nỗi lo đó. Đọc Google thấy bé "phải nặng" bao nhiêu, rồi siêu âm ra khác, là tự hỏi ngay. BS Thư nói thẳng: con số ở tuần 8 không phải thứ cần theo dõi. Bé chỉ dài khoảng 1.6cm, nặng vài gram — và điều quan trọng nhất lúc này là nghe được tim bé, không phải đo kích thước.
 
-Thai tuần 8 bé dài khoảng 1.6cm (bằng hạt đậu), nặng vài gram thôi. Siêu âm lúc này không phải để kiểm tra kích thước, mà để nghe tim bé — phát hiện dị tật sớm.
+Từ tuần 8 đến 12, bé tăng trưởng nhanh hơn bất kỳ giai đoạn nào khác. Lần siêu âm sau bạn sẽ thấy rõ.
 
-Bé sẽ tăng trưởng rất nhanh từ tuần 8-12. Mẹ sẽ thấy sự khác biệt rõ rệt ở lần siêu âm tiếp theo.
-
-📌 Mẹ nào đang lo về tuần thai của mình, comment xuống — BS Thư trả lời hết!
+📌 Đang lo về tuần thai của mình? Comment xuống — BS Thư trả lời.
 
 #thaiky #tuanthai8 #mebau #bsThu #spkhappy
 ```
 
 **Why this works:**
-- Emotional opening: "nhiều mẹ lo không cần thiết" = validates anxiety
-- Direct reassurance: "con số không phải tất cả"
-- Explanation: Why siêu âm matters (not just size)
-- Forward-looking: "bé sẽ tăng trưởng nhanh"
-- CTA: "comment xuống" = engagement (but gentler tone than TikTok)
+- Mở bằng khoảnh khắc cụ thể (tuần 8, bé như hạt đậu) thay vì nhận định chung về nỗi lo
+- "BS Thư nói thẳng:" là cách dẫn credibility tự nhiên — không phải "Hôm nay BS Thư giải thích:"
+- Ý chảy trong đoạn văn: lo lắng → insight → reassurance → forward-looking
+- CTA là câu hỏi mở, không phải lệnh
 
 ---
 
 ### Variation V2: Expert Authority Focus
 
 ```
-Bé nặng bao nhiêu khi 8 tuần thai? Làm sao biết bé phát triển bình thường? 🤔
+"Bé nặng bao nhiêu khi 8 tuần thai là bình thường?" — câu hỏi này mình nghe nhiều hơn bất kỳ câu hỏi nào khác. 🤔
 
-Nhiều mẹ bầu lo lắng vì so sánh với bạn, với Google, với những câu chuyện trong group. Nhưng ai nói những thông tin đó đúng?
+So sánh với bạn, với group online, với số liệu không rõ nguồn — rồi lo. Chu kỳ đó quen thuộc với nhiều mẹ bầu. BS Thư (CKII Từ Dụ) giải thích trực tiếp: tuần 8 bé dài khoảng 1.6cm, nặng vài gram, và đó là bình thường hoàn toàn. Siêu âm lúc này không để đo kích thước — mà để kiểm tra tim thai và phát hiện sớm nếu có bất thường. Hai mục tiêu hoàn toàn khác nhau.
 
-BS Thư (CKII, công tác tại Từ Dụ) sẽ giải thích:
-✅ Thai tuần 8 bé nặng bao nhiêu là bình thường
-✅ Siêu âm tuần 8 cần kiểm tra gì (không phải kích thước)
-✅ Cách nhân biết bé đang phát triển tốt
-
-Xem video để yên tâm, thay vì lo lắng vô căn cứ.
+Xem video để biết mình đang lo đúng chỗ hay không.
 
 #thaiky #mebau #bsthu #spkhappy
 ```
 
 **Why this works:**
-- Opens with 2 questions = relatable pain points
-- "Ai nói thông tin đó đúng?" = builds credibility of expert
-- BS credentials (CKII, Từ Dụ) = authority
-- Checkmarks = clarity
-- "Yên tâm thay vì lo lắng" = emotional benefit (main value prop)
+- Mở bằng câu hỏi thật từ cộng đồng (trích dẫn), không phải câu hỏi tu từ của tác giả
+- Credentials (CKII Từ Dụ) đặt trong câu văn tự nhiên, không liệt kê riêng
+- Toàn bộ insight trong 1 đoạn liên tục, không checkmark list
+- Kết bằng câu hỏi mở ("lo đúng chỗ hay không") — kéo người đọc tự kiểm tra
 
 ---
 
 ### Variation V3: Q&A/Social Proof
 
 ```
-"Thai tuần 8 còn nhỏ quá. Em sợ bé không phát triển bình thường. Có bình thường không BS?" 
+"Thai tuần 8 còn nhỏ quá. Em sợ bé không phát triển bình thường. Có bình thường không BS?"
 
-Câu hỏi này tôi nghe từ 50+ mẹ bầu. Tất cả đều lo — điều hoàn toàn bình thường.
+Câu hỏi này BS Thư nghe từ rất nhiều mẹ bầu. Và câu trả lời thật ra đơn giản hơn nhiều người nghĩ: bé 8 tuần dài khoảng 1.6cm — bằng hạt đậu — và nặng vài gram. Đó là bình thường hoàn toàn. Siêu âm tuần này không để đánh giá kích thước, mà để nghe tim bé và phát hiện sớm nếu có bất thường.
 
-BS Thư trả lời: Thai tuần 8 bé dài 1.6cm (bằng hạt đậu), nặng vài gram. Nó bình thường 100%. Và sẽ phát triển rất nhanh từ giờ.
+Từ tuần 8, bé sẽ tăng trưởng nhanh hơn bất kỳ giai đoạn nào khác. Lo là bình thường — nhưng biết mình đang lo đúng chỗ hay không thì cần bác sĩ giải thích.
 
-Xem video để:
-🎯 Yên tâm rằng bé đang phát triển đúng tiến độ
-🎯 Hiểu tại sao siêu âm tuần 8 quan trọng
-🎯 Biết điều gì cần chú ý trong các tuần tới
-
-Bạn bầu hay lo lắng? Bạn chồng hay hỏi bé phát triển thế nào? Share video này cho cả nhà xem.
+Bạn chồng hay thắc mắc bé đang thế nào? Gửi video này để cả nhà cùng hiểu.
 
 #mebau #thaiky #spkhappy
 ```
 
 **Why this works:**
-- Opens with real question from community = relatability
-- "Câu hỏi này tôi nghe từ 50+ mẹ bầu" = social proof
-- Direct reassurance: "bình thường 100%"
-- Benefit bullets = clarity
-- "Share với cả nhà" = encourages viral sharing (different from TikTok)
+- Mở bằng câu hỏi thật từ cộng đồng — cấu trúc B (chuyện người khác → insight → cảm xúc thật)
+- Câu trả lời chảy tự nhiên trong đoạn văn, không dùng "Xem video để: 🎯" dạy đời
+- "Lo là bình thường — nhưng biết mình đang lo đúng chỗ hay không" — bẻ cua nhẹ tạo lý do xem video
+- CTA cuối hướng đến chồng/gia đình — viral sharing signal tự nhiên, không phải lệnh
 
 ---
 
@@ -285,9 +249,9 @@ Bạn bầu hay lo lắng? Bạn chồng hay hỏi bé phát triển thế nào?
 
 **Length Rules:**
 - First 2-3 lines = pre-"Xem thêm" (must hook viewer before fold)
-- Main body = 1 paragraph after "Xem thêm" (explanation)
-- Additional = 1-2 bullet points or short paragraphs
-- Total: 3-5 sentences before fold, 2-3 paragraphs after
+- Main body = 1-2 đoạn văn liên tục sau "Xem thêm" (không bullet, không header)
+- Total: 2-3 câu trước fold, 1-2 đoạn văn sau fold
+- Mỗi đoạn không quá 4-5 dòng — viết thoáng, không dày đặc
 
 **CTA Rules:**
 - ✅ "Save + share with [who]" (husband, friends, family)
@@ -312,18 +276,20 @@ Bạn bầu hay lo lắng? Bạn chồng hay hỏi bé phát triển thế nào?
 
 ## ✅ Checklist Before Publishing Facebook Copy
 
-- [ ] Pre-"Xem thêm" text hooks viewer (emotion, question, or value)
-- [ ] Main explanation paragraph is clear + reassuring
-- [ ] CTA is specific (save + share, comment, tag friend)
-- [ ] Tone matches Facebook (warm, not punchy)
+- [ ] Pre-"Xem thêm" mở bằng chi tiết cụ thể, khoảnh khắc, hoặc câu hỏi thật — không mở bằng thông báo sự kiện hay luận điểm trừu tượng
+- [ ] Thân bài là đoạn văn liên tục — không bullet, không checkmark, không emoji liệt kê
+- [ ] Không dùng: "Đặc biệt:", "Hôm nay BS Thư giải thích:", "Xem video để:", "bạn PHẢI biết"
+- [ ] Kết bằng chi tiết nhỏ, câu hỏi mở, hoặc CTA ngắn — không tổng kết, không "Hãy cùng nhau"
+- [ ] CTA cụ thể (lưu + gửi cho ai, comment câu gì) — không quá 2 câu
+- [ ] Tone ấm, đọc như người thật viết — không đọc như template
 - [ ] Hashtags 3-5 + include #pkspkhappy
-- [ ] Links to video/image verified before posting
-- [ ] Compliance check: no cure claims, source cited if needed
+- [ ] Compliance check: không claim chữa khỏi, không cam kết kết quả
 
 ---
 
 **Copywrite Facebook — W20 Complete**  
 **Status:** Ready for Execution Agent  
+**Writing Style:** Đã áp dụng `writing-style-hang.md` — ý chảy trong đoạn văn, mở bằng chi tiết cụ thể, kết bằng câu hỏi hoặc khoảnh khắc nhỏ  
 **Next:** Select V1 as primary variation, keep V2-V3 as backup for A/B testing later
 
 ---
