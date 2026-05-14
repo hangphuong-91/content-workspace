@@ -1,6 +1,38 @@
-# Hướng Dẫn Cho Claude — Content Workspace
+# CLAUDE.md — Project Context & Rules
 
-## Quy Tắc Ngôn Ngữ (BẮT BUỘC)
+**For:** Claude instances running skills in this workspace  
+**Version:** 2.0.0  
+**Updated:** 2026-05-14
+
+---
+
+## 🎯 Project Overview
+
+**Marketing Content Workspace v2** — Integrated system for content strategy + execution using 3 specialized agents.
+
+### **3 Agents Architecture**
+
+1. **Communication Strategist Agent** (CMO role)
+   - Input: Brand info, market context, business goals
+   - Output: Strategy docs + GPT analysis
+   - Tools: WebSearch, WebFetch, OpenAI API (if OPENAI_API_KEY set), Notion
+   - Cadence: Quarterly (once per 3 months)
+
+2. **Content Planner Agent** (Strategy execution)
+   - Input: communication-plan.md from Communication Strategist
+   - Output: Content calendar + 3 Excel templates + Notion database
+   - Tools: Notion, Google Drive, manual spreadsheet coordination
+   - Cadence: Quarterly planning + weekly KPI review
+
+3. **Content Execution Agent** (Production & publishing)
+   - Input: content-plan.md from Content Planner
+   - Output: Copy variations + visual briefs + AI prompts + weekly reports
+   - Tools: WebSearch (algorithm updates), Notion updates, manual approvals
+   - Cadence: Weekly (Monday-Sunday)
+
+---
+
+## 📋 Quy Tắc Ngôn Ngữ (BẮT BUỘC)
 
 ### Định Dạng Thuật Ngữ Chuyên Ngành
 Khi dùng thuật ngữ marketing hoặc từ chuyên ngành: **tiếng Việt trước, mở ngoặc tiếng Anh sau**.
@@ -45,32 +77,50 @@ Khi dùng thuật ngữ marketing hoặc từ chuyên ngành: **tiếng Việt t
 Đây là workspace marketing cho solo marketer hoặc nhóm nhỏ người Việt Nam. Người dùng là marketer chuyên nghiệp — không giải thích khái niệm cơ bản, tập trung vào chiến lược và thực thi.
 
 **Ngành thử nghiệm:** Bác sĩ sản phụ khoa tư nhân tại TPHCM  
-**Mục tiêu:** Tạo chiến lược nội dung 3 tháng → thực thi hàng tuần với 6 skills
+**Mục tiêu:** Tạo chiến lược nội dung 3 tháng → thực thi hàng tuần với 3 agents + 10 skills
 
 ---
 
-## 6 Skills Trong Workspace
+## 10 Skills & Cadence
 
-| Lệnh | Chức năng |
-|---|---|
-| `/competitor research` | Phân tích đối thủ, SWOT, phân tích khoảng trống (Gap Analysis) |
-| `/platform algorithm` | Thuật toán (Algorithm) mới nhất từ nguồn chính thức |
-| `/content plan` | Kế hoạch nội dung (Content Plan) 3 tháng, 5 giai đoạn |
-| `/ai execution` | Quy trình sản xuất hàng tuần, sơ đồ tái sử dụng nội dung (Repurposing) |
-| `/copywrite` | Viết bài theo từng nền tảng, 3 biến thể |
-| `/visual creative` | Brief thiết kế, câu lệnh AI tạo ảnh, thông số Canva |
+### **New Skills (v2.0) — Associated with Agents**
+
+| Skill | Command | Agent | Cadence |
+|-------|---------|-------|---------|
+| **Market Intelligence** | `/market-intelligence [brand] [month]` | Comm Strategist | Monthly |
+| **Performance Tracking** | `/performance-tracking [brand] [period]` | Content Planner | Weekly |
+| **Weekly Report** | `/weekly-report [brand] [week]` | Content Execution | Weekly |
+
+### **Legacy Skills (v1.0) — Still Used**
+
+| Skill | Command | Used By | When |
+|-------|---------|---------|------|
+| **Competitor Research** | `/competitor research [brand]` | Comm Strategist | Quarterly + on demand |
+| **Platform Algorithm** | `/platform algorithm [platform]` | Content Execution | Before writing each week |
+| **Content Plan** | `/content plan [topic]` | Content Planner | Quarterly |
+| **Copywrite** | `/copywrite [platform] [brief]` | Content Execution | Weekly |
+| **Visual Creative** | `/visual creative [brief]` | Content Execution | Weekly |
+| **AI Execution** | `/ai execution [plan-file]` | Content Planner | After content plan |
+| **Schedule Posting** | `/schedule posting [brand]` | Content Execution | Manual posting setup |
 
 **Thứ tự chạy chuẩn:**
-1. `/competitor research` → 2. `/platform algorithm` → 3. `/content plan` → 4. `/ai execution` → 5. `/copywrite` + `/visual creative` (song song)
+1. Communication Strategist phases 0→6 (quarterly)
+2. Content Planner → /content plan (quarterly)
+3. Content Execution → Weekly workflow (Monday-Sunday each week)
 
 ---
 
 ## Quy Tắc Đầu Ra
 
 - Tất cả file output lưu vào `outputs/[tên-thương-hiệu]-[YYYY-MM]/`
-- Mỗi output có frontmatter: Tạo bởi, Trạng thái, Nền tảng, Ngày tạo
-- Tuân thủ y tế: Không dùng "chữa khỏi", dùng "hỗ trợ cải thiện"
-- Commit output lên GitHub sau mỗi lần chạy skill
+- File formats:
+  - `.md` = Strategy docs, copywriting briefs, content outlines
+  - `.json` = GPT analysis data (structured, machine-readable)
+  - `.xlsx` = Live tracking, KPI metrics, Excel calendars
+  - `.py` = Automation helpers (e.g., openai-research-helper.py)
+- Mỗi output có timestamp + creator info (frontmatter)
+- Tuân thủ ngành: Không dùng "chữa khỏi", dùng "hỗ trợ cải thiện"
+- Commit output lên GitHub sau mỗi workflow (agent run)
 
 ---
 

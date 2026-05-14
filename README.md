@@ -1,270 +1,331 @@
-# Marketing Content Workspace — Hệ Thống 7 Skills Claude Code
+# Marketing Content Workspace v2 — 3 Agents + 10 Skills + OpenAI
 
-**Phiên bản:** 1.1.0  
+**Phiên bản:** 2.0.0  
 **Ngày tạo:** 2026-05-10  
-**Cập nhật:** 2026-05-12  
+**Cập nhật:** 2026-05-14  
 **Repository:** https://github.com/hangphuong-91/content-workspace
 
-Workspace Claude Code hoàn chỉnh cho marketer một người hoặc nhóm nhỏ. 7 skills kết nối với nhau + tích hợp công cụ ngoài (Notion, Google Drive, Canva, GitHub, Buffer, Zapier) = máy tạo & đăng nội dung tự động từ đầu đến cuối.
+Workspace Claude Code hoàn chỉnh cho marketer một người hoặc nhóm nhỏ. **3 agents chuyên biệt** + 10 skills + OpenAI deep research = máy tạo & quản lý nội dung tự động từ chiến lược đến công bố.
 
 ---
 
-## Workspace Này Làm Gì?
+## 🎯 Workspace Này Làm Gì?
 
-Biến một brief nội dung thành **chiến lược nội dung thực thi 3 tháng**:
+Biến một brief nội dung thành **chiến lược nội dung thực thi 3 tháng + quy trình sản xuất**:
 
 ```
-Nghiên cứu đối thủ → Phân tích thuật toán nền tảng → Tạo kế hoạch nội dung
-→ Xây quy trình sản xuất → Viết bài → Thiết kế hình ảnh
+Nghiên cứu thị trường (GPT) → Định vị & thông điệp → Kế hoạch nội dung 3 tháng
+→ Quy trình sản xuất → Viết bài hàng tuần → Thiết kế hình ảnh → Đo lường & điều chỉnh
 ```
 
 Phù hợp cho:
 - Marketer một người / solopreneur
 - Nhóm marketing nhỏ cần tự động hóa
 - Agency muốn quy trình có thể lặp lại
-- Bàn giao và chia sẻ kiến thức nội dung
+- Bàn giao kiến thức cho team khác
 
 ---
 
-## 7 Skills Cốt Lõi
+## 🤖 3 Agents Chuyên Biệt
 
-| Skill | Lệnh | Chức năng | Khi nào dùng |
-|---|---|---|---|
-| **Kế hoạch nội dung** | `/content plan [chủ đề]` | Chiến lược 3 tháng: phân tích, chân dung khách hàng (Persona), lịch, theo dõi | Bắt đầu từ đây |
-| **Nghiên cứu đối thủ** | `/competitor research [thương hiệu]` | Phân tích đối thủ, phân tích khoảng trống (Gap Analysis), SWOT | Trước kế hoạch nội dung |
-| **Thuật toán nền tảng** | `/platform algorithm [nền tảng]` | Thuật toán (Algorithm) mới nhất từ nguồn chính thức | Trước kế hoạch nội dung |
-| **Viết bài** | `/copywrite [nền tảng] [brief]` | Bài viết theo nền tảng × 3 biến thể thử nghiệm A/B | Sản xuất hàng tuần |
-| **Thiết kế hình ảnh** | `/visual creative [brief]` | Brief thiết kế, câu lệnh AI tạo ảnh, thiết kế Canva | Sản xuất hình ảnh hàng tuần |
-| **Thực thi AI** | `/ai execution [file-kế-hoạch]` | Biến kế hoạch thành quy trình + lịch hàng tuần + sơ đồ tái sử dụng (Repurposing) | Vận hành và bàn giao |
-| **Lịch đăng bài tự động** | `/schedule posting [brand]` | Setup Zapier → Buffer → Facebook automation. Zero manual posting. | Sau khi approve content |
+### **Agent 1: Communication Strategist**
+**Role:** CMO — Nghiên cứu, định vị, đúc kết insights  
+**Cadence:** Hàng quý (3 tháng)  
+**Automation:** 95% tự động  
+**Output:** 8 .md files + 2 .json files (strategy, positioning, tone & voice guide)
 
----
-
-## Bắt Đầu Nhanh (5 phút)
-
-### Bước 1: Cài Đặt Skills
-
-Xem: **[.claude/SKILLS-SETUP.md](./.claude/SKILLS-SETUP.md)**
-
-Tóm tắt:
-```bash
-# Sao chép thư mục skills
-cp -r .claude/skills ~/.claude/skills
-cp .claude/skills-manifest.json ~/.claude/
-
-# Khởi động lại Claude Code
-# Gõ / để thấy 7 skills
+```
+Quy trình: Phases 0→6
+├─ Phase 0: Thu thập input (brand, audience, product)
+├─ Phase 0.5: Kiểm tra stakeholder & compliance risk
+├─ Phase 1: Nghiên cứu (competitor research + market intelligence + GPT analysis)
+├─ Phase 2: Distill insights (5 insights + 1 meta-pattern)
+├─ Phase 3: Message house (Brand Promise + 3-5 pillars)
+├─ Phase 3.5: Tone & Voice guide
+├─ Phase 3.7: Competitive positioning validation
+├─ Phase 4: Channel strategy (OPE matrix)
+├─ Phase 4.5: Campaign themes (quarterly hooks)
+├─ Phase 5: High-level calendar
+└─ Phase 6: Handoff brief to Content Planner
 ```
 
-### Bước 2: Kết Nối Công Cụ Ngoài
+**Skills:** `/stakeholder-alignment`, `/competitor-research`, `/market-intelligence`, `/distill-insights`, `/message-house`, `/tone-voice`, `/competitive-positioning`, `/campaign-themes` + GPT o1
 
-Cần kết nối MCP:
-- Notion (theo dõi nội dung)
-- Google Drive (lưu trữ file)
-- Canva (tạo thiết kế)
-- GitHub CLI (quản lý phiên bản)
+---
 
-### Bước 3: Chạy Workflow
+### **Agent 2: Content Planner**
+**Role:** Strategy execution orchestrator — Lên kế hoạch 3 tháng, giám sát chất lượng  
+**Cadence:** Đầu mỗi quý + hàng tuần (quick check KPI)  
+**Automation:** 85% tự động  
+**Output:** 1 .md file + 3 .xlsx files + Notion database
 
+```
+Quy trình:
+├─ Phase 1: Parse communication-plan.md
+├─ Phase 2: Extract opportunities từ gpt-market-synthesis.json
+├─ Phase 3: Build 12-week content calendar
+│  ├─ Strategic Calendar (Excel): Week | Pillar | Channel | Format | Angle | Status
+│  ├─ KPI Benchmark (Excel): Channel | Reach Target | ER% Target | Frequency
+│  └─ Production Allocation (Excel): Week | Content | Tool | Time | Owner
+├─ Phase 4: Sync to Notion database (if available)
+└─ Weekly: Monitor KPI vs benchmark, flag underperformers
+```
+
+**Skills:** `/content plan` (reads communication data) + manual orchestration
+
+---
+
+### **Agent 3: Content Execution**
+**Role:** Operator — Sản xuất nội dung, thiết kế, đăng bài, báo cáo  
+**Cadence:** Hàng tuần (Thứ 2-7)  
+**Automation:** 40% tự động, 60% cần hướng dẫn & phê duyệt  
+**Output:** Copywriting + visuals + weekly report + metrics tracking
+
+```
+Quy trình hàng tuần:
+├─ MON (Thứ 2): /platform algorithm [facebook] + /platform algorithm [tiktok]
+├─ TUE-4 (Thứ 3-4): /copywrite [platform] [brief] → 3 variations → Manual approve
+├─ WED (Thứ 4): Research Behance/Pinterest → Create visual brief → /visual creative [brief]
+├─ THU (Thứ 5): Final QA (copy + visual approved)
+├─ FRI (Thứ 6): Manual schedule posts
+└─ SAT-7 (Thứ 6-7): /weekly-report [brand] [week] → Update metrics
+```
+
+**Skills:** `/platform algorithm`, `/copywrite`, `/visual creative`, `/weekly-report` + manual approvals
+
+---
+
+## 📊 10 Skills (3 mới + 7 legacy)
+
+### **New Skills (v2.0)**
+
+| Skill | Command | Chức năng | Tích hợp |
+|-------|---------|----------|---------|
+| **Market Intelligence** | `/market-intelligence [brand] [month]` | SEO keywords + algorithm updates + competitor pulse (monthly pulse check) | WebSearch + GPT o1 synthesis |
+| **Performance Tracking** | `/performance-tracking [brand] [period]` | Compare actual KPI vs planned, identify gaps, recommendations | Notion + Google Sheets |
+| **Weekly Report** | `/weekly-report [brand] [week]` | Compile weekly metrics, update Notion, generate summary | Notion + Excel |
+
+### **Legacy Skills (v1.0) — Still Used**
+
+| Skill | Command | Chức năng | Cadence |
+|-------|---------|----------|---------|
+| **Competitor Research** | `/competitor research [brand]` | Phân tích đối thủ, gap analysis, SWOT + GPT deep analysis | Hàng quý (hoặc khi cần) |
+| **Platform Algorithm** | `/platform algorithm [platform]` | Thuật toán mới nhất (Facebook, TikTok, Instagram, LinkedIn, YouTube, X) | Trước khi viết bài |
+| **Content Plan** | `/content plan [topic]` | 5-giai đoạn chiến lược, lịch 3 tháng, theo dõi | Hàng quý |
+| **Copywrite** | `/copywrite [platform] [brief]` | Viết bài × 3 biến thể, ánh xạ thiên kiến nhận thức | Hàng tuần |
+| **Visual Creative** | `/visual creative [brief]` | Brief + AI prompts + Canva brief (no auto-execution) | Hàng tuần |
+| **AI Execution** | `/ai execution [plan-file]` | Quy trình sản xuất + lịch hàng tuần + sơ đồ tái sử dụng | Đầu quý, bàn giao |
+| **Schedule Posting** | `/schedule posting [brand]` | Manual + Buffer scheduling (no Zapier auto) | Sau khi approve |
+
+---
+
+## 🚀 Quick Start (10 phút)
+
+### **Bước 1: Clone & Setup**
 ```bash
-/competitor research "thương hiệu của bạn"
-/platform algorithm facebook
+git clone https://github.com/hangphuong-91/content-workspace
+cd content-workspace
+cat .claude/AGENTS-SETUP.md
+```
+
+### **Bước 2: Xác nhận MCPs Được Kết Nối**
+```
+✅ Notion (Notion database tracking)
+✅ Google Drive (File storage)
+✅ Canva (Visual design reference)
+✅ GitHub CLI (Version control)
+```
+
+### **Bước 3: Set OpenAI API Key** (Optional but recommended)
+```powershell
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "sk-proj-[YOUR-KEY]", "User")
+```
+
+### **Bước 4: Chạy Workflow Đầu Tiên**
+```bash
+# Quý 1: Communication Strategist (ngày 1)
+/stakeholder-alignment "brand của bạn"
+/competitor research "brand của bạn"
+/market-intelligence "brand của bạn" "tháng 5"
 /content plan "chủ đề của bạn"
-/ai execution
-/copywrite facebook "brief"
+
+# Cùng ngày: Content Planner (ngay sau khi comm plan xong)
+/content plan "chủ đề của bạn"  # Đọc communication-plan.md
+
+# Hàng tuần: Content Execution
+/copywrite facebook "brief của bạn"
 /visual creative "brief hình ảnh"
+/weekly-report "brand" "tuần-1"
 ```
 
 ---
 
-## Nội Dung Workspace
-
-### Skills (7 files)
-- `content-plan.md` — Điều phối, 5 giai đoạn, lịch nội dung (Content Calendar) 3 tháng
-- `competitor-research.md` — Phân tích, phân tích khoảng trống (Gap Analysis), SWOT
-- `platform-algorithm.md` — Thuật toán (Algorithm) mới nhất theo nền tảng
-- `copywrite.md` — Frameworks theo nền tảng + 24 thiên kiến nhận thức
-- `visual-creative.md` — Quy trình 3 bước: brief → câu lệnh AI tạo ảnh → Canva
-- `ai-execution.md` — Quy trình, bảng công cụ, sơ đồ tái sử dụng nội dung (Repurposing)
-- `schedule-posting.md` — Zapier + Buffer + Notion automation cho đăng bài tự động
-
-### Supporting Files (19 mẫu & hướng dẫn)
-- Mẫu: brief, kế hoạch, theo dõi, kiểm tra, quy trình
-- Frameworks: viết bài mạng xã hội, email, blog, quảng cáo
-- Hướng dẫn: giọng văn thương hiệu, thông số nền tảng, câu lệnh AI tạo ảnh, Canva, tuân thủ
-
-### Đầu Ra Mẫu
-- Trường hợp: Thương hiệu cá nhân (Personal Brand) bác sĩ sản phụ khoa tư nhân (Việt Nam)
-- Trình tự: phân tích đối thủ → kế hoạch nội dung → quy trình → mẫu bài viết & hình ảnh
-
----
-
-## Cách Hoạt Động
-
-### Cho Marketer Một Người
-1. Tuần 1: `/content plan` → nhận chiến lược 3 tháng
-2. Tuần 2: `/ai execution` → nhận quy trình sản xuất hàng tuần
-3. Mỗi tuần: `/copywrite` + `/visual creative`
-
-**Kết quả:** 5-7 bài/tuần, lên kế hoạch nhanh hơn 80%
-
-### Cho Nhóm Nhỏ
-1. Quản lý: `/content plan` + `/ai execution` hàng quý
-2. Người viết: dùng `/copywrite` hàng ngày
-3. Người thiết kế: dùng `/visual creative` hàng ngày
-4. Bàn giao: Quy trình đủ rõ để người không biết Claude Code follow được
-
-### Cho Agency
-1. Onboarding: `/competitor research` → phân tích thị trường
-2. Đề xuất: `/content plan` → lộ trình 3 tháng
-3. Thực thi: `/ai execution` → quy trình có thể lặp lại
-4. Hàng quý: `/platform algorithm` → cập nhật thuật toán (Algorithm)
-
----
-
-## Tính Năng Chính
-
-**Kế hoạch 5 giai đoạn:** Phân tích thực trạng → Nền tảng chiến lược → Thông điệp → Lịch nội dung (Content Calendar) → Theo dõi
-
-**Ma trận kênh OPE:** Chiến lược kênh Sở hữu/Trả phí/Lan truyền
-
-**Viết bài dựa trên tâm lý học:** 24 thiên kiến nhận thức được ánh xạ với cách tiếp cận
-
-**Ma trận Thiên kiến × Phễu tiếp thị (Funnel):** Thiên kiến nào hiệu quả nhất ở từng giai đoạn
-
-**Chế độ nhanh:** Nhận đầu ra ngay cho nội dung khẩn cấp
-
-**Chế độ đầy đủ:** Phân tích sâu cho quyết định chiến lược
-
-**Sinh quy trình:** Sẵn sàng bàn giao để ủy thác
-
-**Tích hợp Canva:** Tự động tạo hình ảnh với bộ nhận diện thương hiệu
-
-**Theo dõi Notion:** Bảng trạng thái nội dung
-
-**Tuân thủ tích hợp:** Ghi chú cho ngành có quy định (y tế, tài chính)
-
----
-
-## Cấu Trúc Thư Mục
+## 📁 Cấu Trúc Folder
 
 ```
 content-workspace/
-├── CLAUDE.md           ← Hướng dẫn cho Claude (quy tắc ngôn ngữ)
-├── plan.md             ← Kế hoạch dự án
-├── README.md           ← Bạn đang ở đây
-├── QUICK-REFERENCE.md  ← Cheat sheet lệnh
-├── skills/
-│   ├── content-plan.md
-│   ├── competitor-research.md
-│   ├── platform-algorithm.md
-│   ├── copywrite.md
-│   ├── visual-creative.md
-│   ├── ai-execution.md
-│   └── [mẫu & frameworks]
+├── README.md                          ← Bạn đang ở đây
+├── CLAUDE.md                          ← Quy tắc dự án, ngôn ngữ
+├── AGENTS-README.md                   ← Chi tiết 3 agents
+├── 3-AGENTS-WORKFLOW-DIAGRAM.md       ← Workflow + automation points + file formats
+├── plan.md                            ← Kế hoạch chi tiết
+│
 ├── .claude/
-│   ├── skills-manifest.json
-│   └── SKILLS-SETUP.md
+│   ├── agents/
+│   │   ├── communication-strategist.md   ← Agent 1
+│   │   ├── content-planner.md            ← Agent 2
+│   │   ├── content-execution.md          ← Agent 3
+│   │   └── agents-manifest.json
+│   │
+│   └── skills/
+│       ├── market-intelligence.md        ← NEW (v2.0)
+│       ├── performance-tracking.md       ← NEW (v2.0)
+│       ├── weekly-report.md              ← NEW (v2.0)
+│       ├── competitor-research.md        (with GPT integration)
+│       ├── copywrite.md
+│       ├── visual-creative.md
+│       ├── platform-algorithm.md
+│       ├── ai-execution.md
+│       ├── schedule-posting.md
+│       ├── openai-research-helper.py     ← Helper module
+│       ├── OPENAI-INTEGRATION-GUIDE.md
+│       │
+│       └── [supporting templates & frameworks]
+│
 ├── outputs/
-│   └── [thương-hiệu-YYYY-MM]/
+│   └── [brand]-[YYYY-MM]/
+│       ├── communication-plan.md
+│       ├── message-house.md
+│       ├── tone-voice-guide.md
+│       ├── positioning-map.md
+│       ├── campaign-themes.md
+│       ├── gpt-competitor-analysis.json
+│       ├── gpt-market-synthesis.json
 │       ├── content-plan.md
-│       ├── competitor-audit.md
-│       ├── ai-execution-sop.md
-│       └── ...
+│       ├── strategic-calendar.xlsx
+│       ├── kpi-benchmark.xlsx
+│       ├── production-allocation.xlsx
+│       ├── copywrite-[platform]-W[X].md
+│       ├── visual-brief-W[X].md
+│       ├── ai-prompts-W[X].md
+│       ├── weekly-summary-W[X].md
+│       └── execution-log.xlsx
+│
 └── exports/
     └── chat-history.txt
 ```
 
 ---
 
-## Lệnh Thường Dùng
+## 🔄 Workflow by Role
 
-```bash
-# Trình tự workflow (theo thứ tự)
-/competitor research "thương hiệu của bạn"
-/platform algorithm facebook
-/platform algorithm tiktok
-/content plan "chủ đề của bạn"
+### **Cho Marketer Một Người**
+```
+Tháng 1:
+  ├─ Day 1-2: Communication Strategist chạy phases 0→6 (2-3 giờ)
+  │  └─ Output: communication-plan.md
+  ├─ Day 3: Content Planner chạy /content plan (1 giờ)
+  │  └─ Output: 3-month calendar + Excel templates
+  └─ Approval: 30 min review + adjust
 
-# Từ kế hoạch
-/ai execution
+Tháng 2-4 (Hàng tuần):
+  ├─ Thứ 2: /platform algorithm (15 min)
+  ├─ Thứ 3-4: /copywrite (30 min) → approve (15 min)
+  ├─ Thứ 4: Research visual + /visual creative (45 min) → approve (15 min)
+  ├─ Thứ 5-6: Manual schedule posts (30 min)
+  └─ Thứ 6-7: Input metrics + /weekly-report (30 min)
+  
+  **Total per week:** ~4 hours
 
-# Sản xuất hàng tuần
-/copywrite facebook "brief"
-/copywrite email "bản tin"
-/visual creative "brief hình ảnh"
+Tháng 4 cuối:
+  ├─ Communication Strategist: điều chỉnh positioning (nếu cần)
+  └─ Content Planner: review Q2 data, adjust Q3 strategy
+```
 
-# Chế độ nhanh (ngay lập tức, không hỏi)
-/copywrite facebook "brief" --quick
-/content plan "chủ đề" --quick
+### **Cho Nhóm Nhỏ (3 người)**
+```
+Role 1 — Strategic Lead (30% time):
+  ├─ Monthly: /market-intelligence (1 hour)
+  ├─ Quarterly: Communication Strategist workflow (8 hours)
+  └─ Weekly: Review KPI report + decide adjustments (30 min)
+
+Role 2 — Content Writer (80% time):
+  ├─ Hàng tuần: /copywrite (4 × 30 min = 2 hours)
+  ├─ Hàng tuần: Approve & adjust copy (1 hour)
+  └─ Hàng tuần: Research angle + brief ideas (2 hours)
+
+Role 3 — Designer (80% time):
+  ├─ Hàng tuần: Research visual inspiration (1.5 hours)
+  ├─ Hàng tuần: /visual creative (2 hours)
+  ├─ Hàng tuần: Create assets in Canva (3 hours)
+  └─ Hàng tuần: Approve + export (30 min)
+
+Weekly Sync:
+  ├─ Monday: Planner shares weekly direction
+  ├─ Wednesday: Writer + Designer sync on approvals
+  └─ Friday: All review weekly metrics report
 ```
 
 ---
 
-## Trường Hợp Thử Nghiệm: Bác Sĩ Sản Phụ Khoa
+## 📚 Key Documents
 
-Workspace đã được thử nghiệm với: **Thương hiệu cá nhân (Personal Brand) bác sĩ sản phụ khoa tư nhân (TPHCM)**
-
-Chạy trình tự này để kiểm tra cài đặt:
-```bash
-/competitor research "phòng khám sản phụ khoa tư nhân TPHCM"
-/platform algorithm facebook
-/platform algorithm tiktok
-/content plan "Thương hiệu cá nhân bác sĩ sản phụ khoa tư nhân"
-/ai execution outputs/bacsi-sanphukhoa-2026-05/content-plan.md
-/copywrite facebook "Bài giáo dục sức khỏe thai kỳ tuần 28"
-/visual creative "Ảnh thông tin (Infographic) thai kỳ tuần 28 cho Facebook"
-```
+| Document | Purpose | For Whom |
+|----------|---------|----------|
+| **[README.md](./README.md)** | Workspace overview (you are here) | Everyone |
+| **[CLAUDE.md](./CLAUDE.md)** | Project rules, language, context | Claude (AI) |
+| **[AGENTS-README.md](./AGENTS-README.md)** | Detailed agent definitions & workflows | All users |
+| **[3-AGENTS-WORKFLOW-DIAGRAM.md](./3-AGENTS-WORKFLOW-DIAGRAM.md)** | Diagrams, automation points, file formats | Architects, technical leads |
+| **[plan.md](./plan.md)** | Full implementation roadmap | Project managers, developers |
+| **[.claude/AGENTS-SETUP.md](./.claude/AGENTS-SETUP.md)** | How to register agents in Claude Code | Technical setup |
+| **[OPENAI-INTEGRATION-GUIDE.md](./.claude/skills/OPENAI-INTEGRATION-GUIDE.md)** | OpenAI API setup & integration | Advanced users |
 
 ---
 
-## Tài Liệu Đầy Đủ
+## 🔌 Integration Points
 
-- **[CLAUDE.md](./CLAUDE.md)** — Quy tắc ngôn ngữ, ngữ cảnh dự án
-- **[plan.md](./plan.md)** — Kiến trúc đầy đủ, danh sách kiểm tra
-- **[SKILLS-SETUP.md](./.claude/SKILLS-SETUP.md)** — Cài đặt & đăng ký skills
-- **[skills/content-plan.md](./skills/content-plan.md)** — Workflow 5 giai đoạn đầy đủ
-- **[skills/copywrite.md](./skills/copywrite.md)** — Ánh xạ thiên kiến nhận thức
-- **[skills/visual-creative.md](./skills/visual-creative.md)** — Mẫu câu lệnh AI tạo ảnh
-
----
-
-## Frameworks Tích Hợp
-
-- **Ma trận OPE:** Kênh Sở hữu/Trả phí/Lan truyền với % phân chia
-- **Phễu tiếp thị (Funnel):** Nhận biết → Cân nhắc → Chuyển đổi → Giữ chân
-- **Thiên kiến nhận thức:** 24 thiên kiến × kỹ thuật viết bài theo nền tảng
-- **Phương pháp SUME:** Lọc insight chiến lược, tìm đòn bẩy, kiểm tra độ vững
-- **Phương pháp Think-Kit:** Quy tắc dừng cứng, minh bạch, nhận thức thiên kiến
-- **Tái sử dụng nội dung (Repurposing):** 1 bài gốc → 5-7 bài phát sinh (tối ưu 80/20)
+| Tool | Used By | For What |
+|------|---------|----------|
+| **Notion** | All agents | Content tracking database, brand guide repository |
+| **Google Drive** | Planner + Execution | File storage, Excel templates, shared documents |
+| **Canva** | Visual Creative | Design reference briefs (no auto-execution) |
+| **GitHub** | All | Version control, workflow history, team knowledge base |
+| **Buffer** | Content Execution | Manual post scheduling |
+| **OpenAI API** | Communication Strategist | GPT o1 deep analysis (competitor + market data) |
+| **Google Sheets** | Content Planner | KPI tracking, performance reporting (manual input) |
 
 ---
 
-## Danh Sách Kiểm Tra Bắt Đầu
+## ✅ Checklist Bắt Đầu
 
-- [ ] Clone repo: `git clone https://github.com/hangphuong-91/content-workspace`
-- [ ] Đọc [SKILLS-SETUP.md](./.claude/SKILLS-SETUP.md)
-- [ ] Sao chép skills vào Claude Code
-- [ ] Cài đặt Notion MCP
-- [ ] Cài đặt Google Drive MCP
-- [ ] Cài đặt Canva MCP
-- [ ] Cài đặt GitHub CLI
-- [ ] Chạy thử nghiệm với `/competitor research`
-- [ ] Kiểm tra thư mục outputs
-
----
-
-## Đóng Góp
-
-Tìm thấy lỗi? Ý tưởng cải tiến?
-
-1. Fork repo
-2. Tạo branch: `git checkout -b feature/cai-tien-copywrite`
-3. Chỉnh sửa skill files
-4. Kiểm tra với brief mẫu
-5. Gửi Pull Request
+- [ ] Clone repo
+- [ ] Read [AGENTS-README.md](./AGENTS-README.md)
+- [ ] Read [CLAUDE.md](./CLAUDE.md)
+- [ ] Verify MCPs: Notion, Google Drive, Canva, GitHub
+- [ ] Set OPENAI_API_KEY (optional but recommended)
+- [ ] Run test workflow with demo brand
+- [ ] Share outputs folder with team (if group)
+- [ ] Create Notion database for content tracking
+- [ ] Schedule Communication Strategist briefing (Q1 kickoff)
 
 ---
 
-**Xây dựng với Claude Code × Phương pháp Think-Kit + SUME**  
-**v1.0.0 | 2026-05-10**
+## 🤝 Collaboration & Handoff
+
+**Cho bàn giao team:** Tất cả file .md + Excel templates đủ rõ để người không biết Claude Code follow được.
+
+**Cho agency:** Thư mục `outputs/[brand]-[YYYY-MM]/` = deliverable hoàn chỉnh (strategy + calendar + SOP).
+
+**Cho tiếp tục kỳ sau:** GitHub history + Notion database = đầy đủ context.
+
+---
+
+## 📝 License
+
+Workspace này được tạo để học tập & sử dụng nội bộ.
+
+---
+
+**Build with:** Claude Code × Think-Kit + SUME Methods × OpenAI API  
+**v2.0.0 | 2026-05-14**  
+**GitHub:** https://github.com/hangphuong-91/content-workspace
