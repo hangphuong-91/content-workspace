@@ -133,12 +133,10 @@ Execution Agent xác nhận trước khi bắt đầu:
 
 ```
 [ ] Notion database access — link: [URL]
-[ ] Buffer account connected — workspace: [tên]
-[ ] Canva brand kit access — kit name: [tên]
 [ ] Google Drive folder — link: [URL]
 [ ] GitHub repo access — repo: [tên]
-[ ] Zapier zap đang active — zap name: [tên]
-[ ] Google Sheets (để paste Apps Script) — link: [URL]
+[ ] Behance/Pinterest access (cho visual research)
+[ ] Công cụ đăng bài user dùng: [đăng thủ công / Meta Business Suite / khác]
 ```
 
 **Thiếu access bất kỳ tool nào → báo Planner trước khi bắt đầu tuần đầu tiên.**
@@ -151,10 +149,10 @@ Execution Agent báo ngay Planner (không chờ cuối tuần) khi:
 
 ```
 • Bài đã đăng bị report hoặc có comment tiêu cực lan rộng (>10 comments trong 2h)
-• Buffer fail và không fix được trong 30 phút → lịch đăng bị trễ
 • User/client yêu cầu thay đổi angle hoặc pillar giữa tuần
 • Có trending topic liên quan cần response ngay
 • Bất kỳ content piece nào cần vi phạm compliance để làm theo brief
+• Visual brief không được designer thực hiện đúng deadline → báo trước 48h
 ```
 
 ---
