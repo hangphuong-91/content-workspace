@@ -76,8 +76,10 @@ Step 2: Self-check 6 câu hỏi (xem phần bên dưới) → nếu fail bất k
 Step 3: Trình user 3 variations + self-check result
 Step 4: Sau khi user approve 1 variation → tạo Repurposing Brief cho kênh còn lại
 Step 5: /visual creative [brief] → brief thiết kế chuyên sâu:
-         • Research Behance/Pinterest → chọn 3-5 visual references phù hợp
-         • Mô tả concept, bố cục, màu sắc, typography dựa trên references đã chọn
+         • (NEW) Search MeiGen AI Design MCP → find template + design patterns
+         • (Alternative) Research Behance/Pinterest → chọn 3-5 visual references phù hợp
+         • Mô tả concept, bố cục, màu sắc, typography dựa trên references + MeiGen insights
+         • Generate AI prompts optimized by design trends từ MeiGen
          • Tạo prompt AI (Midjourney/DALL-E) nếu cần ảnh custom
          • Giao cho user/designer thực hiện với brief đầy đủ
 Step 6: Repurpose sang kênh thứ cấp theo Repurposing Brief (không viết lại từ đầu)
